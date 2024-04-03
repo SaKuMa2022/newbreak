@@ -35,7 +35,7 @@ def main():
         # Display search results
         if not filtered_df.empty:
             for index, row in filtered_df.iterrows():
-                st.write(f"Organism: {row['Organism']}, Antibiotic: {row['Antibiotic']}, MIC_Breakpoints: {row['MIC_Breakpoint']}")
+                st.write(f"Organism: {row['Organism']}, Antibiotic: {row['Antibiotic']}, MIC_Breakpoints: {row['MIC_Breakpoints']}")
         else:
             st.write('No results found.')
         
