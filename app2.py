@@ -27,7 +27,8 @@ def main():
         
         # Display search results
         if not filtered_df.empty:
-            st.write(filtered_df)
+            for index, row in filtered_df.iterrows():
+                st.write(f"Name: {row['Name']}, Organization: {row['Organization']}, Room Number: {row['Room Number']}")
         else:
             st.write('No results found.')
         
