@@ -15,7 +15,7 @@ def filter_data(df, query):
 
 # Main function to run the Streamlit app
 def main():
-    st.title('Hidden Table with Search')
+    st.title('Search Results')
     
     # Search input box
     search_query = st.text_input('Search:', '')
@@ -23,11 +23,11 @@ def main():
     # Filter data based on search query
     filtered_df = filter_data(df, search_query)
     
-    # Button to toggle table visibility
-    if st.button('Toggle Table Visibility'):
-        st.write(filtered_df)  # Display the table if the button is clicked
+    # Display search results
+    if not filtered_df.empty:
+        st.write(filtered_df)
     else:
-        st.write('Table is hidden.')  # Display a message when the table is hidden
+        st.write('No results found.')
 
 if __name__ == "__main__":
     main()
