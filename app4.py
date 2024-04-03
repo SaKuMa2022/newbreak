@@ -4,7 +4,7 @@ import pandas as pd
 
 # Sample data for the table
 data = {
-    'Organism': ['Pseudomonas spp.', 'Enterobacterales', 'Enterobacterales', 'Acinetobacter spp.'],
+    'Organism': ['Pseudomonas spp.', 'Enterobacterales', 'Enterobacter', 'Acinetobacter spp.'],
     'Antibiotic': ['Zosyn', 'Primaxin', 'Cipro', 'Doribax'],
     'MIC_Breakpoints': [0.001, 0.001, 0.125, 0.001]
 }
@@ -35,7 +35,7 @@ def main():
         # Display search results
         if not filtered_df.empty:
             for index, row in filtered_df.iterrows():
-                st.write(f"Organism: {row['Organism']}, Antibiotic: {row['Antibiotic']}, MIC_Breakpoints: {row['MIC Breakpoint(mg/L)']}")
+                st.write(f"Organism: {row['Organism']}, Antibiotic: {row['Antibiotic']}, MIC_Breakpoints: {row['MIC_Breakpoint']}")
         else:
             st.write('No results found.')
         
