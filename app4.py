@@ -6,7 +6,7 @@ import pandas as pd
 data = {
     'Organism': ['Pseudomonas spp.', 'Enterobacterales', 'Enterobacter', 'Acinetobacter spp.'],
     'Antibiotic': ['Zosyn', 'Primaxin', 'Cipro', 'Doribax'],
-    'MIC_Breakpoints': [0.001, 0.001, 0.125, 0.001]
+    'MIC_Breakpoints': ['0.001', '0.001', '0.125', '0.001']
 }
 df = pd.DataFrame(data)
 
@@ -18,12 +18,12 @@ def filter_data(df, query):
 
 
 
-st.markdown(':blue[Often times finding the correct Breakpoint information for an organism/antimicrobial combination is difficult, we are trying to streamline this process]')
+
 
 
 def main():
     st.title('Breakpoint information')
-    
+    st.markdown(':blue[Often times finding the correct Breakpoint information for an organism/antimicrobial combination is difficult, we are trying to streamline this process]') 
     # Search input box
     search_query = st.text_input('Type in your organism or antibiotic:', '')
     
