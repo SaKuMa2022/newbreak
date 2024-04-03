@@ -20,14 +20,19 @@ def main():
     # Search input box
     search_query = st.text_input('Search:', '')
     
-    # Filter data based on search query
-    filtered_df = filter_data(df, search_query)
-    
-    # Display search results
-    if not filtered_df.empty:
-        st.write(filtered_df)
-    else:
-        st.write('No results found.')
+    # Submit button
+    if st.button('Submit'):
+        # Filter data based on search query
+        filtered_df = filter_data(df, search_query)
+        
+        # Display search results
+        if not filtered_df.empty:
+            st.write(filtered_df)
+        else:
+            st.write('No results found.')
+        
+        # Clear search query after submission
+        search_query = ''
 
 if __name__ == "__main__":
     main()
