@@ -18,7 +18,7 @@ def filter_data(df, query):
 
 st.title('Antibiotic Breakpoint Explorer 1.0')
 
-st.markdown(':blue[Often times finding the correct Breakpoint information for an organism/antimicrobial combination is difficult, we are trying to streamline this process;at this time antibiotics: Zosyn, Primaxin, Cipro & Doribax are included and more antibiotics will be added]')
+st.markdown(':blue[Often times finding the correct Breakpoint information for an organism/antimicrobial combination is difficult, we are trying to streamline this process;at this time antibiotics: Zosyn, Primaxin, Cipro & Doribax are included, and more antibiotics will be added]')
 
 
 def main():
