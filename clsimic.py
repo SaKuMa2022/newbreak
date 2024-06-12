@@ -29,7 +29,7 @@ def filter_dataframe(query):
 def main():
     st.title(':red[MICfinder   v1.0]')
     st.subheader(':violet[(Gram-negative and Gram-positive bacteria)]')
-    st.markdown(''':green[Infectious disease professional and researchers require antibacterial
+    st.markdown(''':green[Infectious disease professionals and researchers require antibacterial
                 susceptibility testing results to determine if an antibacterial is potentially useful in the
                 treatment of bacterial infection. MIC is critical in that regard.
                 Breakpoint setting requires integration of knowledge wild type distribution of MICs and other
