@@ -1,0 +1,319 @@
+﻿DRUG NAME,Organism/Organism Group,"CLSI
+>= S ","CLSI 
+= I/SDD","CLSI
+<= R",FDA STIC >=S,"FDA STIC
+=I",FDA STIC <=R,CLSI & FDA match?,Comments
+Amikacin,Acinetobacter species,17,15-16,14,same,same,same,Yes,
+Ampicillin-Sulbactam,Acinetobacter species,15,14-Dec,11,same,same,same,Yes,
+Cefepime,Acinetobacter species,18,15-17,14,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefiderocol,Acinetobacter species,15,-,-,19,18-Dec,11,No,FDA breakpoints are 19/12-18/11 for Acinetobacter baumanii complex only
+Cefotaxime,Acinetobacter species,23,15-22,14,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ceftazidime,Acinetobacter species,18,15-17,14,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ceftriaxone,Acinetobacter species,21,14-20,13,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ciprofloxacin,Acinetobacter species,21,16-20,15,-,-,-,No,FDA STIC website does not recognize breakpoints
+Doripenem,Acinetobacter species,18,15-17,14,same,same,same,Yes,
+Doxycycline,Acinetobacter species,13,12-Oct,9,same,same,same,Yes,
+Gatifloxacin,Acinetobacter species,18,15-17,14,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Gentamicin,Acinetobacter species,15,13-14,12,-,-,-,No,FDA STIC website does not recognize breakpoints
+Imipenem,Acinetobacter species,22,19-21,18,same,same,same,Yes,
+Levofloxacin,Acinetobacter species,17,14-16,13,-,-,-,No,FDA STIC website does not recognize breakpoints
+Meropenem,Acinetobacter species,18,15-17,14,same,same,same,Yes,
+Minocycline,Acinetobacter species,16,13-15,12,same,same,same,Yes,
+Piperacillin,Acinetobacter species,21,18-20,17,-,-,-,No,Piperacillin not listed on FDA STIC website
+Piperacillin-Tazobactam,Acinetobacter species,21,18-20,17,same,same,same,Yes,
+Tetracycline,Acinetobacter species,15,14-Dec,11,same,same,same,Yes,
+Ticarcillin-Clavulanate,Acinetobacter species,20,15-19,14,-,-,-,No,FDA STIC website does not recognize breakpoints
+Tobramycin,Acinetobacter species,15,13-14,12,-,-,-,No,FDA STIC website does not recognize breakpoints
+Trimethoprim-Sulfamethoxazole,Acinetobacter species,16,15-Nov,10,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ampicillin,Beta-hemolytic Streptococcus,24,-,-,same,same,same,Yes,
+Azithromycin,Beta-hemolytic Streptococcus,18,14-17,13,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefepime,Beta-hemolytic Streptococcus,24,-,-,same,same,same,Yes,
+Cefotaxime,Beta-hemolytic Streptococcus,24,-,-,same,same,same,Yes,
+Ceftaroline,Beta-hemolytic Streptococcus,26,-,-,same,same,same,Yes,
+Ceftriaxone,Beta-hemolytic Streptococcus,24,-,-,same,same,same,Yes,
+Chloramphenicol,Beta-hemolytic Streptococcus,21,18-20,17,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ciprofloxacin,Beta-hemolytic Streptococcus,-,-,-,21,16-20,15,No,CLSI does not have breakpoints for this drug/bug combination
+Clarithromycin,Beta-hemolytic Streptococcus,21,17-20,16,same,same,same,Yes,
+Clindamycin,Beta-hemolytic Streptococcus,19,16-18,15,same,same,same,Yes,
+Dirithromycin,Beta-hemolytic Streptococcus,18,14-17,13,-,-,-,No,Dirithromycin not listed on FDA STIC website
+Erythromycin,Beta-hemolytic Streptococcus,21,16-20,15,same,same,same,Yes,
+Gatifloxacin,Beta-hemolytic Streptococcus,21,18-20,17,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Grepafloxacin,Beta-hemolytic Streptococcus,19,16-18,15,-,-,-,No,Grepafloxacin not listed on FDA STIC website
+Levofloxacin,Beta-hemolytic Streptococcus,17,14-16,13,same,same,same,Yes,
+Linezolid,Beta-hemolytic Streptococcus,21,-,-,same,same,same,Yes,
+Ofloxacin,Beta-hemolytic Streptococcus,16,13-15,12,same,same,same,Yes,
+Penicillin G,Beta-hemolytic Streptococcus,24,-,-,same,same,same,Yes,
+Quinupristin-dalfopristin,Beta-hemolytic Streptococcus,19,16-18,15,same,same,same,Yes,
+Tetracycline,Beta-hemolytic Streptococcus,23,19-22,18,same,same,same,Yes,
+Trovafloxacin,Beta-hemolytic Streptococcus,19,16-18,15,-,-,-,No,Trovafloxacin not listed on FDA STIC website
+Vancomycin,Beta-hemolytic Streptococcus,17,-,-,same,same,same,Yes,
+Ceftazidime,Burkholderia cepacia,21,18-20,17,-,-,-,No,FDA STIC website does not recognize breakpoints
+Meropenem,Burkholderia cepacia,20,16-19,15,-,-,-,No,FDA STIC website does not recognize breakpoints
+Minocycline,Burkholderia cepacia,19,15-18,14,-,-,-,No,FDA STIC website does not recognize breakpoints
+Trimethoprim-Sulfamethoxazole,Burkholderia cepacia,16,15-Nov,10,-,-,-,No,FDA STIC website does not recognize breakpoints
+Amikacin,Enterobacterales,20,17-19,16,17,15-16,14,No,CLSI updated breakpoints in the M100-33rd ed. FDA STIC recognizes the CLSI breakpoints in the M100-32nd ed. 
+Amoxicillin-Clavulanate,Enterobacterales,18,14-17,13,same,same,same,Yes,
+Ampicillin,Enterobacterales,17,14-16,13,same,same,same,Yes,
+Ampicillin-Sulbactam,Enterobacterales,15,14-Dec,11,same,same,same,Yes,
+Aztreonam,Enterobacterales,21,18-20,17,same,same,same,Yes,
+Cefaclor,Enterobacterales,18,15-17,14,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefamandole,Enterobacterales,18,15-17,14,-,-,-,No,Cefamandole not listed on FDA STIC website
+Cefazolin - infections other than uncomplicated UTIs,Enterobacterales,23,20-22,19,same,same,same,Yes,
+Cefazolin - uncomplicated UTIs,Enterobacterales,15,-,14,-,-,-,No,FDA STIC website does not recognize breakpoints for uncomplicated urinary tract infections
+Cefdinir,Enterobacterales,20,17-19,16,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefepime,Enterobacterales,25,"19-24 
+(SDD)",18,25,"19-24 
+(I)",18,Yes,"FDA STIC website lists the same breakpoints as CLSI breakpoints, but does not recognize the SDD category."
+Cefetamet,Enterobacterales,18,15-17,14,-,-,-,No,Cefetamet not listed on FDA STIC website
+Cefiderocol,Enterobacterales,16,15-Sep,8,same,same,same,Yes,"FDA STIC website lists the same values as CLSI breakpoints, with the comments:
+
+a) Clinical efficacy was shown for Escherichia coli, Klebsiella pneumoniae, Proteus mirabilis, and Enterobacter cloacae complex in patients with complicated urinary tract infections (cUTI).
+
+b) Clinical efficacy was shown for Escherichia coli, Klebsiella pneumoniae, Enterobacter cloacae complex, and Serratia marcescens in patients with hospital-acquired bacterial pneumonia and ventilator-associated bacterial pneumonia (HAbreakpoint/VAbreakpoint)."
+Cefixime,Enterobacterales,19,16-18,15,same,same,same,Yes,
+Cefmetazole,Enterobacterales,16,13-15,12,-,-,-,No,Cefmetazole not listed on FDA STIC website
+Cefonicid,Enterobacterales,18,15-17,14,-,-,-,No,Cefonicid not listed on FDA STIC website
+Cefoperazone,Enterobacterales,21,16-20,15,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefotaxime,Enterobacterales,26,23-25,22,same,same,same,Yes,
+Cefotetan,Enterobacterales,16,13-15,12,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefoxitin,Enterobacterales,18,15-17,14,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefpodoxime,Enterobacterales,21,18-20,17,same,same,same,Yes,
+Cefprozil,Enterobacterales,18,15-17,14,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ceftaroline,Enterobacterales,23,20-22,19,same,same,same,Yes,
+Ceftazidime,Enterobacterales,21,18-20,17,same,same,same,Yes,
+Ceftazidime-Avibactam,Enterobacterales,21,-,20,same,same,same,Yes,
+Ceftibuten,Enterobacterales,21,18-20,17,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ceftizoxime,Enterobacterales,25,22-24,21,-,-,-,No,Ceftizoxime not listed on FDA STIC website
+Ceftolozane-tazobactam,Enterobacterales,22,19-21,18,same,same,same,Yes,
+Ceftriaxone,Enterobacterales,23,20-22,19,same,same,same,Yes,
+Cefuroxime (oral),Enterobacterales,23,15-22,14,same,same,same,Yes,
+Cefuroxime (parenteral),Enterobacterales,18,15-17,14,18,-,17,No,FDA breakpoints 18/17 for Enterobacteriaceae
+Chloramphenicol,Enterobacterales,18,13-17,12,same,same,same,Yes,FDA STIC website accepts CLSI breakpoints for Salmonella species only
+Cinoxacin,Enterobacterales,19,15-18,14,-,-,-,No,Cinoxacin is not listed on FDA STIC website 
+Ciprofloxacin,Enterobacterales,26,22-25,21,same,same,same,Yes,
+Doripenem,Enterobacterales,23,20-22,19,same,same,same,Yes,
+Doxycycline,Enterobacterales,14,13-Nov,10,same,same,same,Yes,
+Enoxacin,Enterobacterales,18,15-17,14,-,-,-,No,Enoxacin not listed on FDA STIC website
+Ertapenem,Enterobacterales,22,19-21,18,same,same,same,Yes,
+Fleroxacin,Enterobacterales,19,16-18,15,-,-,-,No,Fleroxacin not listed on FDA STIC website
+Fosfomycin w/G6P,Enterobacterales,16,13-15,12,same,same,same,Yes,
+Gatifloxacin,Enterobacterales,18,15-17,14,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Gentamicin,Enterobacterales,18,15-17,14,15,13-14,12,No,CLSI updated breakpoints in the M100-33rd ed. FDA STIC recognizes the CLSI breakpoints in the M100-32nd ed. 
+Grepafloxacin,Enterobacterales,18,15-17,14,-,-,-,No,Grepafloxacin not listed on FDA STIC website
+Imipenem,Enterobacterales,23,20-22,19,same,same,same,Yes,
+Imipenem-relebactam,Enterobacterales,25,21-24,20,same,same,same,Yes,"FDA STIC website accepts CLSI breakpoints with comment Clinical efficacy was shown for Klebsiella aerogenes, Enterobacter cloacae, Escherichia coli, Klebsiella pneumoniae, Citrobacter freundii, Klebsiella oxytoca."
+Kanamycin,Enterobacterales,18,14-17,13,same,same,same,Yes,
+Levofloxacin,Enterobacterales,21,17-20,16,same,same,same,Yes,FDA does not recognize levofloxacin breakpoints for Salmonella spp. 
+Lomefloxacin,Enterobacterales,22,19-21,18,-,-,-,No,Lomefloxacin not listed on FDA STIC website
+Loracarbef,Enterobacterales,18,15-17,14,-,-,-,No,FDA STIC website does not recognize breakpoints
+Mecillinam,Enterobacterales,15,14-Dec,11,-,-,-,No,Mecillinam not listed on FDA STIC website
+Meropenem,Enterobacterales,23,20-22,19,same,same,same,Yes,
+Meropenem-vaborbactam,Enterobacterales,18,15-17,14,same,same,same,Yes,
+Minocycline,Enterobacterales,16,13-15,12,same,same,same,Yes,
+Moxalactam,Enterobacterales,23,15-22,14,-,-,-,No,Moxalactam not listed on FDA STIC website
+Nalidixic acid,Enterobacterales,19,14-18,13,-,-,-,No,Nalidixic acid not listed on FDA STIC website
+Netilmicin,Enterobacterales,15,13-14,12,-,-,-,No,Netilmicin not listed on FDA STIC website
+Nitrofurantoin,Enterobacterales,17,15-16,14,same,same,same,Yes,
+Norfloxacin,Enterobacterales,17,13-16,12,-,-,-,No,Norfloxacin not listed on FDA STIC website
+Ofloxacin,Enterobacterales,16,13-15,12,same,same,same,Yes,FDA does not recognize ofloxacin breakpoints for Salmonella spp. 
+Piperacillin-tazobactam,Enterobacterales,25,21-24,20,same,same,same,Yes,"FDA accepts CLSI breakpoints with the following footnote:
+Clinical efficacy was shown for E. coli and K. pneumoniae"
+Plazomicin,Enterobacterales,18,15-17,14,16,14-15,13,No,FDA STIC website does not recognize breakpoints
+Streptomycin,Enterobacterales,15,14-Dec,11,same,same,same,Yes,
+Tetracycline,Enterobacterales,15,14-Dec,11,same,same,same,Yes,
+Ticarcillin-Clavulanate,Enterobacterales,20,15-19,14,same,same,same,Yes,
+Tobramycin,Enterobacterales,17,13-16,12,15,13-14,12,No,CLSI updated breakpoints in the M100-33rd ed. FDA STIC recognizes the CLSI breakpoints in the M100-32nd ed. 
+Trimethoprim,Enterobacterales,16,15-Nov,10,same,same,same,Yes,
+Trimethoprim-Sulfamethoxazole,Enterobacterales,16,15-Nov,10,same,same,same,Yes,
+Triple Sulfa,Enterobacterales,17,13-16,12,-,-,-,No,Triple Sulfa not listed on FDA STIC website
+Gemifloxacin,Enterobacterales: Klebsiella pneumoniae only,20,16-19,15,same,same,same,Yes,
+Ciprofloxacin,Enterobacterales: Salmonella species only,31,21-30,20,same,same,same,Yes,
+Pefloxacin,Enterobacterales: Salmonella species only,24,-,23,-,-,-,No,Pefloxacin not listed on FDA STIC website
+Azithromycin,Enterobacterales: Salmonella typhi only,13,-,12,-,-,-,No,FDA STIC website does not recognize breakpoints
+Azithromycin,Enterobacterales: Shigella species only,16,15-Nov,10,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ampicillin,Enterococcus species,17,-,16,same,same,same,Yes,
+Chloramphenicol,Enterococcus species,18,13-17,12,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ciprofloxacin,Enterococcus species,21,16-20,15,same,same,same,Yes,
+Doxycycline,Enterococcus species,16,13-15,12,-,-,-,No,FDA STIC website does not recognize breakpoints
+Erythromycin,Enterococcus species,23,14-22,13,same,same,same,Yes,
+Gatifloxacin,Enterococcus species,18,15-17,14,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Levofloxacin,Enterococcus species,17,14-16,13,same,same,same,Yes,
+Linezolid,Enterococcus species,23,21-22,20,same,same,same,Yes,
+Minocycline,Enterococcus species,19,15-18,14,-,-,-,No,FDA STIC website does not recognize breakpoints
+Nitrofurantoin,Enterococcus species,17,15-16,14,same,same,same,Yes,
+Norfloxacin,Enterococcus species,17,13-16,12,-,-,-,No,Norfloxacin not listed on FDA STIC website
+Penicillin,Enterococcus species,15,-,14,same,same,same,Yes,
+Rifampin,Enterococcus species,20,17-19,16,-,-,-,No,FDA STIC website does not recognize breakpoints
+Teicoplanin,Enterococcus species,14,13-Nov,10,-,-,-,No,Teicoplanin not listed on FDA STIC website
+Tetracycline,Enterococcus species,19,15-18,14,same,same,same,Yes,
+Vancomycin,Enterococcus species,17,15-16,14,same,same,same,Yes,
+Fosfomycin,Enterococcus species: Enterococcus faecalis urinary isolates only,16,13-15,12,same,same,same,Yes,
+Quinupristin-dalfopristin,Enterococcus species: Enterococcus faecium VRE only,19,16-18,15,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ampicillin,Haemophilus influenzae and Haemophilus parainfluenzae,22,19-21,18,same,same,same,Yes,
+Ampicillin-Sulbactam,Haemophilus influenzae and Haemophilus parainfluenzae,20,-,19,same,same,same,Yes,
+Azithromycin,Haemophilus influenzae and Haemophilus parainfluenzae,12,-,-,same,same,same,Yes,
+Aztreonam,Haemophilus influenzae and Haemophilus parainfluenzae,26,-,-,same,same,same,Yes,
+Cefaclor,Haemophilus influenzae and Haemophilus parainfluenzae,20,17-19,16,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefdinir,Haemophilus influenzae and Haemophilus parainfluenzae,20,-,-,same,same,same,Yes,
+Cefepime,Haemophilus influenzae and Haemophilus parainfluenzae,26,-,-,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefetamet,Haemophilus influenzae and Haemophilus parainfluenzae,18,15-17,14,-,-,-,No,Cefetamet not listed on FDA STIC website
+Cefixime,Haemophilus influenzae and Haemophilus parainfluenzae,21,-,-,same,same,same,Yes,
+Cefonicid,Haemophilus influenzae and Haemophilus parainfluenzae,20,17-19,16,-,-,-,No,Cefonicid not listed on FDA STIC website
+Cefotaxime,Haemophilus influenzae and Haemophilus parainfluenzae,26,-,-,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefpodoxime,Haemophilus influenzae and Haemophilus parainfluenzae,21,-,-,same,same,same,Yes,
+Cefprozil,Haemophilus influenzae and Haemophilus parainfluenzae,18,15-17,14,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ceftaroline,Haemophilus influenzae and Haemophilus parainfluenzae,30,-,-,same,same,same,Yes,
+Ceftazidime,Haemophilus influenzae and Haemophilus parainfluenzae,26,-,-,same,same,same,Yes,
+Ceftibuten,Haemophilus influenzae and Haemophilus parainfluenzae,28,-,-,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ceftizoxime,Haemophilus influenzae and Haemophilus parainfluenzae,26,-,-,-,-,-,No,Ceftizoxime not listed on FDA STIC website
+Ceftriaxone,Haemophilus influenzae and Haemophilus parainfluenzae,26,-,-,same,same,same,Yes,
+Cefuroxime,Haemophilus influenzae and Haemophilus parainfluenzae,20,17-19,16,same,same,same,Yes,
+Chloramphenicol,Haemophilus influenzae and Haemophilus parainfluenzae,29,26-28,25,same,same,same,Yes,
+Ciprofloxacin,Haemophilus influenzae and Haemophilus parainfluenzae,21,-,-,same,same,same,Yes,
+Clarithromycin,Haemophilus influenzae and Haemophilus parainfluenzae,13,12-Nov,10,same,same,same,Yes,
+Doripenem,Haemophilus influenzae and Haemophilus parainfluenzae,16,-,-,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ertapenem,Haemophilus influenzae and Haemophilus parainfluenzae,19,-,-,same,same,same,Yes,
+Fleroxacin,Haemophilus influenzae and Haemophilus parainfluenzae,19,-,-,-,-,-,No,Fleroxacin not listed on FDA STIC website
+Gatifloxacin,Haemophilus influenzae and Haemophilus parainfluenzae,18,-,-,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Gemifloxacin,Haemophilus influenzae and Haemophilus parainfluenzae,18,-,-,same,same,same,Yes,
+Grepafloxacin,Haemophilus influenzae and Haemophilus parainfluenzae,24,-,-,-,-,-,No,Grepafloxacin not listed on FDA STIC website
+Imipenem,Haemophilus influenzae and Haemophilus parainfluenzae,16,-,-,same,same,same,Yes,
+Lefamulin,Haemophilus influenzae and Haemophilus parainfluenzae,18,-,-,same,same,same,Yes,FDA breakpoint for Haemophilus influenzae only
+Levofloxacin,Haemophilus influenzae and Haemophilus parainfluenzae,17,-,-,same,same,same,Yes,
+Lomefloxacin,Haemophilus influenzae and Haemophilus parainfluenzae,22,-,-,-,-,-,No,Lomefloxacin not listed on FDA STIC website
+Loracarbef,Haemophilus influenzae and Haemophilus parainfluenzae,19,16-18,15,-,-,-,No,FDA STIC website does not recognize breakpoints
+Meropenem,Haemophilus influenzae and Haemophilus parainfluenzae,20,-,-,same,same,same,Yes,
+Moxifloxacin,Haemophilus influenzae and Haemophilus parainfluenzae,18,-,-,same,same,same,Yes,
+Ofloxacin,Haemophilus influenzae and Haemophilus parainfluenzae,16,-,-,same,same,same,Yes,
+Piperacillin-tazobactam,Haemophilus influenzae and Haemophilus parainfluenzae,21,-,-,same,same,same,Yes,
+Rifampin,Haemophilus influenzae and Haemophilus parainfluenzae,20,17-19,16,-,-,-,No,FDA STIC website does not recognize breakpoints
+Tetracycline,Haemophilus influenzae and Haemophilus parainfluenzae,29,26-28,25,same,same,same,Yes,
+Trimethoprim-Sulfamethoxazole,Haemophilus influenzae and Haemophilus parainfluenzae,16,15-Nov,10,same,same,same,Yes,
+Trovafloxacin,Haemophilus influenzae and Haemophilus parainfluenzae,22,-,-,-,-,-,No,Trovafloxacin not listed on FDA STIC website
+Azithromycin,Neisseria gonorrhoeae,30,-,-,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefepime,Neisseria gonorrhoeae,31,-,-,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefixime,Neisseria gonorrhoeae,31,-,-,same,same,same,Yes,
+Cefotaxime,Neisseria gonorrhoeae,31,-,-,same,same,same,Yes,
+Cefotetan,Neisseria gonorrhoeae,26,20-25,19,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefoxitin,Neisseria gonorrhoeae,28,24-27,23,same,same,same,Yes,
+Cefpodoxime,Neisseria gonorrhoeae,29,-,-,same,same,same,Yes,
+Ceftizoxime,Neisseria gonorrhoeae,38,-,-,-,-,-,No,Ceftizoxime not listed on FDA STIC website
+Ceftriaxone,Neisseria gonorrhoeae,35,-,-,same,same,same,Yes,
+Ciprofloxacin,Neisseria gonorrhoeae,41,28-40,27,same,same,same,Yes,
+Ofloxacin,Neisseria gonorrhoeae,-,-,-,31,25-30,24,No,CLSI does not have breakpoints for this drug/bug combination
+Penicillin G,Neisseria gonorrhoeae,47,27-46,26,same,same,same,Yes,
+Spectinomycin,Neisseria gonorrhoeae,18,15-17,14,same,same,same,Yes,
+Tetracycline,Neisseria gonorrhoeae,38,31-37,30,same,same,same,Yes,
+Azithromycin,Neisseria meningitidis,20,-,-,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefotaxime,Neisseria meningitidis,34,-,-,same,same,same,Yes,
+Ceftriaxone,Neisseria meningitidis,34,-,-,same,same,same,Yes,
+Chloramphenicol,Neisseria meningitidis,26,20-25,19,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ciprofloxacin,Neisseria meningitidis,35,33-34,32,-,-,-,No,FDA STIC website does not recognize breakpoints
+Meropenem,Neisseria meningitidis,30,-,-,same,same,same,Yes,
+Minocycline,Neisseria meningitidis,26,-,-,same,same,same,Yes,
+Rifampin,Neisseria meningitidis,25,20-24,19,same,same,same,Yes,
+Trimethoprim-Sulfamethoxazole,Neisseria meningitidis,30,26-29,25,-,-,-,No,FDA STIC website does not recognize breakpoints
+Amikacin,Pseudomonas aeruginosa,17,15-16,14,same,same,same,Yes,
+Aztreonam,Pseudomonas aeruginosa,22,16-21,15,same,same,same,Yes,
+Cefepime,Pseudomonas aeruginosa,18,15-17,14,18,-,17,No,FDA breakpoints are 18/17 for Pseudomonas aeruginosa
+Cefiderocol,Pseudomonas aeruginosa,18,13-17,12,22,13-21,12,No,FDA breakpoints are 22/13-21/12
+Ceftazidime,Pseudomonas aeruginosa,18,15-17,14,18,-,17,No,FDA breakpoints are 18/17 for Pseudomonas aeruginosa
+Ceftazidime-avibactam,Pseudomonas aeruginosa,21,-,20,same,same,same,Yes,
+Ceftolozane-tazobactam,Pseudomonas aeruginosa,21,17-20,16,same,same,same,Yes,
+Ciprofloxacin,Pseudomonas aeruginosa,25,19-24,18,same,same,same,Yes,
+Doripenem,Pseudomonas aeruginosa,19,16-18,15,same,same,same,Yes,
+Gatifloxacin,Pseudomonas aeruginosa,18,15-17,14,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Gentamicin,Pseudomonas aeruginosa,-,-,-,15,13-14,12,No,CLSI removed breakpoints in the M100-33rd ed. FDA STIC recognizes the CLSI breakpoints in the M100-32nd ed. 
+Imipenem,Pseudomonas aeruginosa,19,16-18,15,same,same,same,Yes,
+Imipenem-relebactam,Pseudomonas aeruginosa,23,20-22,19,same,same,same,Yes,
+Levofloxacin,Pseudomonas aeruginosa,22,15-21,14,same,same,same,Yes,
+Lomefloxacin,Pseudomonas aeruginosa,22,19-21,18,-,-,-,No,Lomefloxacin not listed on FDA STIC website
+Meropenem,Pseudomonas aeruginosa,19,16-18,15,same,same,same,Yes,
+Netilmicin,Pseudomonas aeruginosa,15,13-14,12,-,-,-,No,Netilmicin not listed on FDA STIC website
+Norfloxacin,Pseudomonas aeruginosa,17,13-16,12,-,-,-,No,Norfloxacin not listed on FDA STIC website
+Ofloxacin,Pseudomonas aeruginosa,16,13-15,12,same,same,same,Yes,
+Piperacillin,Pseudomonas aeruginosa,22,18-21,17,-,-,-,No,Piperacillin not listed on FDA STIC website
+Piperacillin-tazobactam,Pseudomonas aeruginosa,22,18-21,17,21,15-20,14,No,CLSI updated breakpoints in the M100-33rd ed. FDA STIC recognizes the CLSI breakpoints in the M100-32nd ed. 
+Ticarcillin-Clavulanate,Pseudomonas aeruginosa,24,16-23,15,same,same,same,Yes,
+Tobramycin,Pseudomonas aeruginosa,19,13-18,12,15,13-14,12,No,CLSI updated breakpoints in the M100-33rd ed. FDA STIC recognizes the CLSI breakpoints in the M100-32nd ed. 
+Oxacillin,"Staphyloccoccus species: S. epidermidis, S. pseudintermedius, S. schleiferi only",18,-,17,same,same,same,Yes,
+Ceftaroline,Staphylococcus aureus,25,20-24,19,24,21-23,20,No,FDA breakpoints are 24/21-23/20 for Staphylococcus aureus
+Lefamulin,Staphylococcus aureus,23,-,-,same,same,same,Yes,FDA STIC website accepts CLSI breakpoints for methicillin-susceptible Staphylococcus aureus isolates only
+Quinupristin-dalfopristin,Staphylococcus aureus,19,16-18,15,same,same,same,Yes,FDA STIC website accepts CLSI breakpoints for methicillin-susceptible Staphylococcus aureus isolates only
+Tobramycin,Staphylococcus aureus,-,-,-,15,13-14,12,No,CLSI does not have breakpoints for this drug/bug combination
+Azithromycin,Staphylococcus species,18,14-17,13,same,same,same,Yes,
+Chloramphenicol,Staphylococcus species,18,13-17,12,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ciprofloxacin,Staphylococcus species,21,16-20,15,same,same,same,Yes,
+Clarithromycin,Staphylococcus species,18,14-17,13,same,same,same,Yes,
+Clindamycin,Staphylococcus species,21,15-20,14,same,same,same,Yes,
+Dirithromycin,Staphylococcus species,19,16-18,15,-,-,-,No,Dirithromycin not listed on FDA STIC website
+Doxycycline,Staphylococcus species,16,13-15,12,-,-,-,No,FDA STIC website does not recognize breakpoints
+Enoxacin,Staphylococcus species,18,15-17,14,-,-,-,No,Enoxacin not listed on FDA STIC website
+Erythromycin,Staphylococcus species,23,14-22,13,same,same,same,Yes,
+Fleroxacin,Staphylococcus species,19,16-18,15,-,-,-,No,Fleroxacin not listed on FDA STIC website
+Gatifloxacin,Staphylococcus species,23,20-22,19,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Gentamicin,Staphylococcus species,15,13-14,12,same,same,same,Yes,
+Grepafloxacin,Staphylococcus species,18,15-17,14,-,-,-,No,Grepafloxacin not listed on FDA STIC website
+Levofloxacin,Staphylococcus species,19,16-18,15,17,14-16,13,No,FDA breakpoints are for MRSA only
+Linezolid,Staphylococcus species,21,-,20,same,same,same,Yes,
+Lomefloxacin,Staphylococcus species,22,19-21,18,-,-,-,No,Lomefloxacin not listed on FDA STIC website
+Minocycline,Staphylococcus species,19,15-18,14,same,same,same,Yes,
+Moxifloxacin,Staphylococcus species,24,21-23,20,same,same,same,Yes,
+Nitrofurantoin,Staphylococcus species,17,15-16,14,same,same,same,Yes,
+Norfloxacin,Staphylococcus species,17,13-16,12,-,-,-,No,Norfloxacin not listed on FDA STIC website
+Ofloxacin,Staphylococcus species,18,15-17,14,16,13-15,12,No,FDA breakpoints are for MSSA only
+Penicillin G,Staphylococcus species,29,-,28,same,same,same,Yes,
+Rifampin,Staphylococcus species,20,17-19,16,-,-,-,No,FDA STIC website does not recognize breakpoints
+Sparfloxacin,Staphylococcus species,19,16-18,15,-,-,-,No,Sparfloxacin not listed on FDA STIC website
+Tetracycline,Staphylococcus species,19,15-18,14,same,same,same,Yes,
+Trimethoprim,Staphylococcus species,16,15-Nov,10,same,same,same,Yes,
+Trimethoprim-Sulfamethoxazole,Staphylococcus species,16,15-Nov,10,-,-,-,No,FDA STIC website does not recognize breakpoints
+Triple Sulfa,Staphylococcus species,17,13-16,12,-,-,-,No,Triple Sulfa not listed on FDA STIC website
+Cefoxitin,Staphylococcus species except S. aureus and S. lugdunensis,25,-,24,same,same,same,Yes,
+Cefoxitin,Staphylococcus species: Staphylococcus aureus and Staphylococcus lugdunensis only,22,-,21,same,same,same,Yes,
+Amikacin,Staphylococcus species: Staphylococcus aureus only,-,-,-,17,15-16,14,No,No CLSI breakpoints. FDA breakpoints are 17/15-16/14
+Cefiderocol,Stenotrophomonas maltophilia,15,-,-,-,-,-,No,FDA STIC website does not recognize breakpoints
+Levofloxacin,Stenotrophomonas maltophilia,17,14-16,13,-,-,-,No,FDA STIC website does not recognize breakpoints
+Minocycline,Stenotrophomonas maltophilia,19,15-18,14,-,-,-,No,FDA STIC website does not recognize breakpoints
+Trimethoprim-Sulfamethoxazole,Stenotrophomonas maltophilia,16,15-Nov,10,-,-,-,No,FDA STIC website does not recognize breakpoints
+Azithromycin,Streptococcus pneumoniae,18,14-17,13,same,same,same,Yes,
+Ceftaroline,Streptococcus pneumoniae,26,-,-,same,same,same,Yes,
+Chloramphenicol,Streptococcus pneumoniae,21,-,20,-,-,-,No,FDA STIC website does not recognize breakpoints
+Ciprofloxacin,Streptococcus pneumoniae,-,-,-,21,16-20,15,No,CLSI does not have breakpoints for this drug/bug combination
+Clarithromycin,Streptococcus pneumoniae,21,17-20,16,same,same,same,Yes,
+Clindamycin,Streptococcus pneumoniae,19,16-18,15,same,same,same,Yes,
+Dirithromycin,Streptococcus pneumoniae,18,14-17,13,-,-,-,No,Dirithromycin not listed on FDA STIC website
+Doxycycline,Streptococcus pneumoniae,28,25-27,24,same,same,same,Yes,
+Erythromycin,Streptococcus pneumoniae,21,16-20,15,same,same,same,Yes,
+Gatifloxacin,Streptococcus pneumoniae,21,18-20,17,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Gemifloxacin,Streptococcus pneumoniae,23,20-22,19,same,same,same,Yes,
+Lefamulin,Streptococcus pneumoniae,19,-,-,same,same,same,Yes,
+Levofloxacin,Streptococcus pneumoniae,17,14-16,13,same,same,same,Yes,
+Linezolid,Streptococcus pneumoniae,21,-,-,same,same,same,Yes,
+Moxifloxacin,Streptococcus pneumoniae,18,15-17,14,same,same,same,Yes,
+Ofloxacin,Streptococcus pneumoniae,16,13-15,12,same,same,same,Yes,
+Oxacillin,Streptococcus pneumoniae,20,-,-,-,-,-,No,FDA STIC website does not recognize breakpoints
+Quinupristin-dalfopristin,Streptococcus pneumoniae,19,16-18,15,-,-,-,No,FDA STIC website does not recognize breakpoints
+Rifampin,Streptococcus pneumoniae,19,17-18,16,-,-,-,No,FDA STIC website does not recognize breakpoints
+Sparfloxacin,Streptococcus pneumoniae,19,16-18,15,-,-,-,No,Sparfloxacin not listed on FDA STIC website
+Tetracycline,Streptococcus pneumoniae,28,25-27,24,same,same,same,Yes,
+Trimethoprim-Sulfamethoxazole,Streptococcus pneumoniae,19,16-18,15,same,same,same,Yes,
+Vancomycin,Streptococcus pneumoniae,17,-,-,-,-,-,No,FDA STIC does not recognize breakpoints for Streptococcus pneumoniae
+Azithromycin,Streptococcus viridans group,18,14-17,13,-,-,-,No,FDA STIC website does not recognize breakpoints
+Cefepime,Streptococcus viridans group,24,22-23,21,same,same,same,Yes,
+Cefotaxime,Streptococcus viridans group,28,26-27,25,same,same,same,Yes,
+Ceftriaxone,Streptococcus viridans group,27,25-26,24,same,same,same,Yes,
+Chloramphenicol,Streptococcus viridans group,21,18-20,17,-,-,-,No,FDA STIC website does not recognize breakpoints
+Clarithromycin,Streptococcus viridans group,21,17-20,16,-,-,-,No,FDA STIC website does not recognize breakpoints
+Clindamycin,Streptococcus viridans group,19,16-18,15,same,same,same,Yes,
+Dirithromycin,Streptococcus viridans group,18,14-17,13,-,-,-,No,Dirithromycin not listed on FDA STIC website
+Erythromycin,Streptococcus viridans group,21,16-20,15,same,same,same,Yes,
+Gatifloxacin,Streptococcus viridans group,21,18-20,17,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Grepafloxacin,Streptococcus viridans group,19,16-18,15,-,-,-,No,Grepafloxacin not listed on FDA STIC website
+Levofloxacin,Streptococcus viridans group,17,14-16,13,-,-,-,No,FDA STIC website does not recognize breakpoints
+Linezolid,Streptococcus viridans group,21,-,-,same,same,same,Yes,
+Ofloxacin,Streptococcus viridans group,16,13-15,12,-,-,-,No,FDA STIC website does not recognize breakpoints
+Quinupristin-dalfopristin,Streptococcus viridans group,19,16-18,15,same,same,same,Yes,
+Tetracycline,Streptococcus viridans group,23,19-22,18,-,-,-,No,FDA STIC website does not recognize breakpoints
+Trovafloxacin,Streptococcus viridans group,19,16-18,15,-,-,-,No,Trovafloxacin not listed on FDA STIC website
+Vancomycin,Streptococcus viridans group,17,-,-,same,same,same,Yes,
