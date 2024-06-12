@@ -35,7 +35,7 @@ def main():
                 Breakpoint setting requires integration of knowledge wild type distribution of MICs and other
                 factors(doi:10.1128/CMR.0047-06.) ]''')
 
-    st.markdown(':blue-background[Please type in few letters of  either antibiotic or organism and press enter]')
+    st.markdown(':blue-background[Please type in a few letters of  either antibiotic or organism and press enter]')
     st.text('Please use the refresh button on your browser to clear search results')
     
 
