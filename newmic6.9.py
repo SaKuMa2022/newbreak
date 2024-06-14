@@ -210,7 +210,7 @@ df2 = df2.reset_index(drop=True)
 
 df2.set_index('Organism')
 
-st.header(':red[MICfinder vs1.0]')
+st.header(':red[MICfinder  vs1.0]')
 st.subheader(':violet[(Gram-negative bacteria)]')
 st.sidebar.text('Organisms')
 
