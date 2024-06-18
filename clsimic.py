@@ -4,7 +4,7 @@ import pandas as pd
 @ st.cache_data
 
 def load_data():
-    return pd.read_csv(r'antidata_6.12.csv', encoding= 'unicode_escape')
+    return pd.read_csv(r'antimidata.csv', encoding= 'unicode_escape')
 
 df=load_data()
 
