@@ -31,7 +31,7 @@ def main():
     st.subheader(':violet[(Gram-negative and Gram-positive bacteria)]')
     st.markdown(''':green[Infectious disease professionals and researchers require antibacterial
                 susceptibility testing results to determine if an antibacterial is potentially useful in the
-                treatment of bacterial infection. MIC is critical in that regard.
+                treatment of bacterial infection. MIC(values in µg/ml) is critical in that regard.
                 Breakpoint setting requires integration of knowledge of wild type distribution of MICs and other
                 factors(doi:10.1128/CMR.0047-06.) ]''')
 
