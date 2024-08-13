@@ -176,29 +176,29 @@ Antibiotics= ['Ampicillin', 'Ampicillin-sulbactam', 'Amoxicillin-clauvulanate', 
                         'Levofloxacin','Moxifloxacin','Trimethoprim-sulfamethoxazole']
 
 
-Organism= [ 'Escherichia coli','Klebseilla pneumoniae',
- 'Klebseilla oxytoca','Proteus mirabilis',
+Organism= [ 'Escherichia coli','Klebsiella pneumoniae',
+ 'Klebsiella oxytoca','Proteus mirabilis',
  'Proteus spp, not mirabilis',
  'Enterobacter cloacae complex',
-               'Klebseilla (formerly Enterobacter) aerogenes',
+               'Klebsiella (formerly Enterobacter) aerogenes',
                'Salmonella','Shigella',
               'Pseudomonas aeruginosa','Acinetobacter spp.',
               
  'Burkholderia cepacia complex',
  'Stenotrophomonas maltophila',
  'Haemophilus influenzae',
-'Haemophilus parainfluenzae','Escherichia coli','Klebseilla pneumoniae',
- 'Klebseilla oxytoca','Proteus mirabilis',
+'Haemophilus parainfluenzae','Escherichia coli','Klebsiella pneumoniae',
+ 'Klebsiella oxytoca','Proteus mirabilis',
  'Proteus spp, not mirabilis',
  'Enterobacter cloacae complex',
-               'Klebseilla (formerly Enterobacter) aerogenes',
+               'Klebsiella (formerly Enterobacter) aerogenes',
                'Salmonella','Shigella',
               'Pseudomonas aeruginosa','Acinetobacter spp.',
               
  'Burkholderia cepacia complex',
  'Stenotrophomonas maltophila',
  'Haemophilus influenzae',
-'Haemophilus parainfluenzae','Escherichia coli','Klebseilla pneumoniae']
+'Haemophilus parainfluenzae','Escherichia coli','Klebsiella pneumoniae']
 
 df2 = pd.DataFrame(data = MIC,  
                   index = Organism,  
