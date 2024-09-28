@@ -1,0 +1,479 @@
+DRUG NAME,Organism/Organism Group,"CLSI
+<= S ","CLSI 
+= I/SDD","CLSI
+>= R",FDA STIC <=S,"FDA STIC
+=I",FDA STIC >=R,CLSI & FDA match?,Comments
+Amikacin,Acinetobacter species,16,32,64,same,same,same,Yes,
+Ampicillin-Sulbactam,Acinetobacter species,8/4.,16/8,32/16,same,same,same,Yes,
+Cefepime,Acinetobacter species,8,16,32,-,-,-,No,FDA STIC website does not recognize BPs
+Cefotaxime,Acinetobacter species,8,16-32,64,1,2,4,No,
+Ceftazidime,Acinetobacter species,8,16,32,same,same,same,Yes,
+Ceftriaxone,Acinetobacter species,8,16-32,64,-,-,-,No,FDA STIC website does not recognize BPs
+Ciprofloxacin,Acinetobacter species,1,2,4,-,-,-,No,FDA STIC website does not recognize BPs
+Doripenem,Acinetobacter species,2,4,8,same,same,same,Yes,
+Doxycycline,Acinetobacter species,4,8,16,same,same,same,Yes,
+Gatifloxacin,Acinetobacter species,2,4,8,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Gentamicin,Acinetobacter species,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Imipenem,Acinetobacter species,2,4,8,same,same,same,Yes,
+Levofloxacin,Acinetobacter species,2,4,8,-,-,-,No,FDA STIC website does not recognize BPs
+Meropenem,Acinetobacter species,2,4,8,same,same,same,Yes,
+Minocycline,Acinetobacter species,4,8,16,same,same,same,Yes,
+Netilmicin,Acinetobacter species,8,16,32,-,-,-,No,Netilmicin not listed on FDA STIC website
+Piperacillin,Acinetobacter species,16,32-64,128,-,-,-,No,Piperacillin not listed on FDA STIC website
+Piperacillin-Tazobactam,Acinetobacter species,16/4,32/4-64/4,128/4,same,same,same,Yes,
+Polymyxin B,Acinetobacter species,-,2,4,-,-,-,No,"FDA does not accept PB breakpoints. Note that the lower breakpoint is for intermediate, not susceptible. "
+Sulbactam-durlobactam,Acinetobacter species,4/4.,8/4.,16/4,same,same,same,Yes,FDA STIC website recognizes the CLSI breakpoints for Acinetobacter baumannii calcoaceticus complex only. 
+Tetracycline,Acinetobacter species,4,8,16,same,same,same,Yes,
+Ticarcillin-Clavulanate,Acinetobacter species,16/2,32/2-64/2,128/2,-,-,-,No,FDA STIC website does not recognize BPs
+Tobramycin,Acinetobacter species,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Trimethoprim-Sulfamethoxazole,Acinetobacter species,2/38.,-,4/76.,-,-,-,No,FDA STIC website does not recognize BPs
+Cefiderocol,Acinetobacter species: Acinetobacter baumannii complex only,4,8,16,1,2,4,No,
+Colistin,Acinetobacter species: Acinetobacter baumannii complex only,-,2,4,-,-,-,No,"FDA does not accept CL breakpoints at all; Note that the lower breakpoint is for intermediate, not susceptible."
+Imipenem-Relebactam,Acinetobacter species: Acinetobacter baumannii complex only,-,-,-,2,4,8,No,FDA BPs are 2/4/8 for A. baumannii complex only. There are no CLSI BPs
+Amoxicillin-clavulanate,Anaerobes,4/2.,8/4.,16/8,-,-,-,No,FDA does not have BPs for anaerobes
+Ampicillin,Anaerobes,0.5,1,2,-,-,-,No,FDA does not have BPs
+Ampicillin-sulbactam,Anaerobes,8/4.,16/8,32/16,-,-,-,No,FDA does not have BPs
+Cefmetazole,Anaerobes,16,32,64,-,-,-,No,Cefmetazole not listed on FDA STIC website
+Cefoperazone,Anaerobes,16,32,64,8,-,16,No,
+Cefotaxime,Anaerobes,16,32,64,1,2,4,No,
+Cefotetan,Anaerobes,16,32,64,4,8,16,No,
+Cefoxitin,Anaerobes,16,32,64,4,8,16,No,
+Ceftizoxime,Anaerobes,32,64,128,-,-,-,No,Ceftizoxime not listed on FDA STIC website
+Ceftriaxone,Anaerobes,16,32,64,1,2,4,No,
+Chloramphenicol,Anaerobes,8,16,32,-,-,-,No,FDA does not have BPs
+Clindamycin,Anaerobes,2,4,8,same,same,same,Yes,
+Doripenem,Anaerobes,2,4,8,1,-,-,No,
+Ertapenem,Anaerobes,4,8,16,same,same,same,Yes,
+Imipenem,Anaerobes,4,8,16,same,same,same,Yes,
+Imipenem-Relebactam,Anaerobes,4/4.,8/4.,16/4,same,same,same,Yes,"FDA accepts BPs with the following footnotes:
+Clinical efficacy was shown for Bacteroides caccae, Bacteroides fragilis, Bacteroides ovatus, Bacteroides stercoris, Bacteroides thetaiotaomicron, Fusobacterium nucleatum, Parabacteroides distasonis.
+
+Agar dilution method."
+Meropenem,Anaerobes,4,8,16,same,same,same,Yes,
+Metronidazole,Anaerobes,8,16,32,same,same,same,Yes,
+Moxifloxacin,Anaerobes,2,4,8,same,same,same,Yes,
+Penicillin,Anaerobes,0.5,1,2,-,-,-,No,FDA does not have BPs for anaerobes
+Piperacillin-Tazobactam,Anaerobes,16/4,32/4-64/4,128/4,same,same,same,Yes,
+Tetracycline,Anaerobes,4,8,16,same,same,same,Yes,
+Ticarcillin-Clavulanate,Anaerobes,32/2,64/2,128/2,same,same,same,Yes,
+Ceftolozane-Tazobactam,Bacteroides fragilis,-,-,-,   8/4.,16/4,32/4,No,CLSI does not have BPs for this drug/bug combination
+Ampicillin,Beta-hemolytic Streptococcus,0.25,-,-,same,same,same,Yes,
+Azithromycin,Beta-hemolytic Streptococcus,0.5,1,2,-,-,-,No,FDA STIC website does not recognize BPs. 
+Cefdinir,Beta-hemolytic Streptococcus,-,-,-,1,2,4,No,CLSI does not have BPs for this drug/bug combination
+Cefditoren Pivoxil ,Beta-hemolytic Streptococcus,-,-,-,0.125,-,-,No,CLSI does not have BPs for this drug/bug combination
+Cefepime,Beta-hemolytic Streptococcus,0.5,-,-,same,same,same,Yes,
+Cefotaxime,Beta-hemolytic Streptococcus,0.5,-,-,same,same,same,Yes,
+Ceftaroline,Beta-hemolytic Streptococcus,0.5,-,-,same,same,same,Yes,
+Ceftriaxone,Beta-hemolytic Streptococcus,0.5,-,-,same,same,same,Yes,
+Chloramphenicol,Beta-hemolytic Streptococcus,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Ciprofloxacin,Beta-hemolytic Streptococcus,-,-,-,1,2,4,No,CLSI does not have BPs for this drug/bug combination
+Clarithromycin,Beta-hemolytic Streptococcus,0.25,0.5,1,same,same,same,Yes,
+Clindamycin,Beta-hemolytic Streptococcus,0.25,0.5,1,same,same,same,Yes,
+Daptomycin,Beta-hemolytic Streptococcus,1,-,-,same,same,same,Yes,"FDA STIC website accepts BPs, but for S. pyogenes, S. agalactiae, & S. dysgalactiae only. "
+Dirithromycin,Beta-hemolytic Streptococcus,0.5,1,2,-,-,-,No,Dirithromycin not listed on FDA STIC website
+Doripenem,Beta-hemolytic Streptococcus,0.125,-,-,same,same,same,Yes,
+Ertapenem,Beta-hemolytic Streptococcus,1,-,-,same,same,same,Yes,
+Erythromycin,Beta-hemolytic Streptococcus,0.25,0.5,1,same,same,same,Yes,
+Gatifloxacin,Beta-hemolytic Streptococcus,1,2,4,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Grepafloxacin,Beta-hemolytic Streptococcus,0.5,1,2,-,-,-,No,Grepafloxacin not listed on FDA STIC website.
+Levofloxacin,Beta-hemolytic Streptococcus,2,4,8,same,same,same,Yes,
+Linezolid,Beta-hemolytic Streptococcus,2,,,same,same,same,Yes,
+Meropenem,Beta-hemolytic Streptococcus,0.5,-,-,same,same,same,Yes,
+Ofloxacin,Beta-hemolytic Streptococcus,2,4,8,same,same,same,Yes,
+Oritavancin,Beta-hemolytic Streptococcus,0.25,-,-,same,same,same,Yes,
+Penicillin ,Beta-hemolytic Streptococcus,0.125,-,-,same,same,same,Yes,
+Telavancin,Beta-hemolytic Streptococcus,0.125,-,-,same,same,same,Yes,
+Tetracycline,Beta-hemolytic Streptococcus,2,4,8,same,same,same,Yes,
+Tigecycline,Beta-hemolytic Streptococcus,-,-,-,0.25,-,-,No,FDA BP S<=0.25; no CLSI BPs
+Trovafloxacin,Beta-hemolytic Streptococcus,1,2,4,-,-,-,No,Trovafloxacin not listed on FDA STIC website
+Vancomycin,Beta-hemolytic Streptococcus,1,-,-,same,same,same,Yes,
+Dalbavancin,"Beta-hemolytic Streptococcus: Streptococcus agalactiae, Streptococcus dysgalactiae, Streptococcus pyogenes",0.25,-,-,same,same,same,Yes,
+Quinupristin-dalfopristin,Beta-hemolytic Streptococcus: Streptococcus pyogenes,1,2,4,same,same,same,Yes,
+Tedizolid,Beta-hemolytic Streptococcus: Streptococcus pyogenes and S. agalactiae,0.5,-,-,same,same,same,Yes,
+Ceftazidime,Burkholderia cepacia complex,8,16,32,same,same,same,Yes,
+Chloramphenicol,Burkholderia cepacia complex,8,16,32,-,-,-,No,FDA STIC website does not recognize BPs
+Levofloxacin,Burkholderia cepacia complex,2,4,8,-,-,-,No,FDA STIC website does not recognize BPs
+Meropenem,Burkholderia cepacia complex,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Minocycline,Burkholderia cepacia complex,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Ticarcillin-Clavulanate,Burkholderia cepacia complex,16/2,32/2-64/2,128/2,-,-,-,No,FDA STIC website does not recognize BPs
+Trimethoprim-Sulfamethoxazole,Burkholderia cepacia complex,2/38.,-,4/76.,-,-,-,No,FDA STIC website does not recognize BPs
+Amikacin,Enterobacterales,4,8,16,16,32,64,No,CLSI updated BPs in the M100-33rd ed. FDA STIC recognizes the CLSI BPs in the M100-32nd ed. 
+Amoxicillin-Clavulanate,Enterobacterales,8/4.,16/8,32/16,same,same,same,Yes,
+Ampicillin,Enterobacterales,8,16,32,same,same,same,Yes,
+Ampicillin-Sulbactam,Enterobacterales,8/4.,16/8,32/16,same,same,same,Yes,
+Aztreonam,Enterobacterales,4,8,16,same,same,same,Yes,
+Cefaclor,Enterobacterales,8,16,32,-,-,-,No,FDA STIC website does not recognize BPs
+Cefamandole,Enterobacterales,8,16,32,-,-,-,No,Cefamandole not listed on FDA STIC website
+Cefdinir,Enterobacterales,1,2,4,-,-,-,No,FDA STIC website does not recognize BPs
+Cefepime,Enterobacterales,2,4-8 (SDD),16,2,4-8 (SDD),16,Yes,
+Cefepime-Enmetazobactam,Enterobacterales,-,-,-,   8/8.,-,16/8,No,"CLSI does not have BPs for this drug/bug combination.
+STIC website lists the following footnote: Among Enterobacterales species, clinical efficacy was shown for Escherichia coli, Klebsiella pneumoniae, Proteus mirabilis, Enterobacter cloacae complex only. "
+Cefetamet,Enterobacterales,4,8,16,-,-,-,No,Cefetamet not listed on FDA STIC website. 
+Cefiderocol,Enterobacterales,4,8,16,same,same,same,Yes,"STIC recognized CLSI BPs for Enterobacterales with the following footnotes: 
+Clinical efficacy was shown for Escherichia coli, Klebsiella pneumoniae, Proteus mirabilis, and Enterobacter cloacae complex in patients with complicated urinary tract infections (cUTI).
+
+Clinical efficacy was shown for Escherichia coli, Klebsiella pneumoniae, Enterobacter cloacae complex, and Serratia marcescens in patients with hospital-acquired bacterial pneumonia and ventilator-associated bacterial pneumonia (HABP/VABP)."
+Cefixime,Enterobacterales,1,2,4,same,same,same,Yes,
+Cefmetazole,Enterobacterales,16,32,64,-,-,-,No,Cefmetazole not listed on FDA STIC website
+Cefonicid,Enterobacterales,8,16,32,-,-,-,No,Cefonicid not listed on FDA STIC website
+Cefoperazone,Enterobacterales,16,32,64,8,-,16,No,
+Cefotaxime,Enterobacterales,1,2,4,same,same,same,Yes,
+Cefotetan,Enterobacterales,16,32,64,4,8,16,No,
+Cefoxitin,Enterobacterales,8,16,32,4,8,16,No,
+Cefpodoxime,Enterobacterales,2,4,8,same,same,same,Yes,
+Cefprozil,Enterobacterales,8,16,32,-,-,-,No,FDA STIC website does not recognize BPs
+Ceftaroline,Enterobacterales,0.5,1,2,same,same,same,Yes,
+Ceftazidime,Enterobacterales,4,8,16,same,same,same,Yes,
+Ceftazidime-Avibactam ,Enterobacterales,8/4.,-,16/4,same,same,same,Yes,
+Ceftibuten,Enterobacterales,8,16,32,-,-,-,No,FDA does not have BPs
+Ceftizoxime,Enterobacterales,1,2,4,-,-,-,No,Ceftizoxime not listed on FDA STIC website
+Ceftobiprole,Enterobacterales,-,-,-,0.25,0.5,1,No,CLSI does not have BPs for this drug/bug combination
+Ceftolozane-Tazobactam,Enterobacterales,2,4,8,same,same,same,Yes,
+Ceftriaxone,Enterobacterales,1,2,4,same,same,same,Yes,
+Cefuroxime (oral),Enterobacterales,4,8-16.,32,same,same,same,Yes,
+Cefuroxime (parenteral),Enterobacterales,8,16,32,8,-,16,No,
+Chloramphenicol,Enterobacterales,8,16,32,same,same,same,Yes,FDA STIC website accepts CLSI BPs for Salmonella spp. only
+Cinoxacin,Enterobacterales,16,32,64,-,-,-,No,Cinoxacin is not listed on FDA STIC website
+Colistin,Enterobacterales,-,2,4,-,-,-,No,"FDA does not accept CL breakpoints at all; Note that the lower breakpoint is for intermediate, not susceptible."
+Doripenem,Enterobacterales,1,2,4,same,same,same,Yes,
+Doxycycline,Enterobacterales,4,8,16,same,same,same,Yes,
+Enoxacin,Enterobacterales,2,4,8,-,-,-,No,Enoxacin not listed on FDA STIC website
+Ertapenem,Enterobacterales,0.5,1,2,same,same,same,Yes,
+Fleroxacin,Enterobacterales,2,4,8,-,-,-,No,Fleroxacin not listed on FDA STIC website.
+Gatifloxacin,Enterobacterales,2,4,8,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Gentamicin,Enterobacterales,2,-,8,4,8,16,No,CLSI updated BPs in the M100-33rd ed. FDA STIC recognizes the CLSI BPs in the M100-32nd ed. 
+Grepafloxacin,Enterobacterales,1,2,4,-,-,-,No,Grepafloxacin not listed on FDA STIC website.
+Imipenem,Enterobacterales,1,2,4,same,same,same,Yes,
+Kanamycin,Enterobacterales,16,32,64,same,same,same,Yes,
+Lomefloxacin,Enterobacterales,2,4,8,-,-,-,No,Lomefloxacin not listed on FDA STIC website. 
+Loracarbef,Enterobacterales,8,16,32,-,-,-,No,Loracaref not listed on FDA STIC website.
+Meropenem,Enterobacterales,1,2,4,same,same,same,Yes,
+Meropenem-Vaborbactam,Enterobacterales,4/8.,8/8.,16/8,same,same,same,Yes,
+Minocycline,Enterobacterales,4,8,16,same,same,same,Yes,
+Moxalactam,Enterobacterales,8,16-32,64,-,-,-,No,Moxalactam not listed on FDA STIC website. 
+Moxifloxacin,Enterobacterales,-,-,-,2,4,8,No,"FDA BP 2/4/8, no CLSI BPs"
+Nalidixic Acid,Enterobacterales,16,-,32,-,-,-,No,Nalidixic acid is not listed on FDA STIC website
+Netilmicin,Enterobacterales,8,16,32,-,-,-,No,Netilmicin not listed on FDA STIC website
+Nitrofurantoin,Enterobacterales,32,64,128,same,same,same,Yes,
+Norfloxacin,Enterobacterales,4,8,16,-,-,-,No,"Norfloxacin not listed on FDA STIC website; CLSI BPs removed in 2019, reinstated in 2020"
+Ofloxacin,Enterobacterales,2,4,8,same,same,same,Yes,
+Piperacillin,Enterobacterales,8,16 (SDD),32,-,-,-,No,Piperacillin not listed on FDA STIC website
+Piperacillin-Tazobactam,Enterobacterales,8/4.,16/4 (SDD),32/4,8/4. ,16/4 (I),32/4,No,"FDA accepts breakpoints with the following footnote:
+Clinical efficacy was shown for E. coli and K. pneumoniae. CLSI and FDA breakpoints are the same with the exception of SDD/I breakpoints. "
+Plazomicin,Enterobacterales,2,4,8,same,same,same,Yes,
+Polymyxin B,Enterobacterales,-,2,4,-,-,-,No,"FDA does not accept PB breakpoints. Note that the lower breakpoint is for intermediate, not susceptible. "
+Sulfamethoxazole,Enterobacterales,256,,512,-,-,-,No,Sulfamethoxazole not listed on FDA STIC website
+Sulfisoxazole,Enterobacterales,256,,512,-,-,-,No,Sulfisoxazole not listed on FDA STIC website
+Sulfonamides,Enterobacterales,256,-,512,same,same,same,Yes,
+Tetracycline,Enterobacterales,4,8,16,same,same,same,Yes,
+Ticarcillin-Clavulanate,Enterobacterales,16/2,32/2-64/2,128/2,same,same,same,Yes,
+Tigecycline,Enterobacterales,-,-,-,2,4,8,No,FDA Brkpts 2/4/8; no CLSI Brkpts
+Tobramycin,Enterobacterales,2,-,8,4,8,16,No,CLSI updated BPs in the M100-33rd ed. FDA STIC recognizes the CLSI BPs in the M100-32nd ed. 
+Trimethoprim,Enterobacterales,8,-,16,same,same,same,Yes,
+Trimethoprim-Sulfamethoxazole,Enterobacterales,2/38.,-,4/76.,same,same,same,Yes,
+Ciprofloxacin,Enterobacterales except Salmonella species,0.25,0.5,1,same,same,same,Yes,
+Levofloxacin,Enterobacterales except Salmonella species,0.5,1,2,same,same,same,Yes,
+Ofloxacin,Enterobacterales except Salmonella species,2,4,8,same,same,same,Yes,
+Imipenem-Relebactam,"Enterobacterales: Citrobacter freundii, Enterobacter cloacae, Escherichia coli, Klebsiella aerogenes, Klebsiella oxytoca, Klebsiella pneumoniae only",1/4.,2/4.,4/4.,same,same,same,Yes,"FDA & CLSI BPs match, but FDA BPs apply to C. freundii, E. cloacae, E. coli, K. aerogenes , K. oxytoca, K. pneumo only. CLSI BPs apply to all Enterics except the Morganellaceae"
+Eravacycline,"Enterobacterales: Citrobacter freundii, Enterobacter cloacae, Escherichia coli, Klebsiella oxytoca, Klebsiella pneumoniae only",-,-,-,0.5,-,-,No,"FDA applies to C. freundii, E. cloacae, E. coli, K. oxytoca, and K. pneumoniae only and there is no resistant BP. There are no CLSI BPs"
+Fosfomycin w/G6P,Enterobacterales: Escherichia coli only,64,128,256,same,same,same,Yes,for UTI only. 
+Mecillinam,Enterobacterales: Escherichia coli only,8,16,32,same,same,same,Yes,FDA STIC footnote: Clinical efficacy was shown for Escherichia coli and Proteus mirabilis in patients with uncomplicated urinary tract infections. 
+Delafloxacin,"Enterobacterales: Escherichia coli, Klebsiella pneumoniae, Enterobacter cloacae only",-,-,-,0.25,0.5,1,No,"FDA BPs apply to E. coli, K. pneumo, and E. cloacae only. There are no CLSI BPs. "
+Cefazolin - infections other than uncomplicated UTIs,"Enterobacterales: Escherichia coli, Klebsiella pneumoniae, Proteus mirabilis only",2,4,8,same,same,same,Yes,
+Cefazolin - uncomplicated UTIs,"Enterobacterales: Escherichia coli, Klebsiella pneumoniae, Proteus mirabilis only",16,-,32,-,-,-,No,FDA does not recognize BPs for uUTIs
+Gemifloxacin,Enterobacterales: Klebsiella pneumoniae only,0.25,0.5,1,same,same,same,Yes,K. pneumo only.
+Azithromycin,Enterobacterales: Salmonella enterica ser. Typhi only,16,-,32,-,-,-,No,FDA STIC website does not recognize BPs. 
+Ciprofloxacin,Enterobacterales: Salmonella species only,0.0625,0.12-0.5,1,same,same,same,Yes,
+Levofloxacin,Enterobacterales: Salmonella species only,0.125,0.25-1,2,same,same,same,Yes,
+Ofloxacin,Enterobacterales: Salmonella species only,0.125,0.25-1,2,same,same,same,Yes,
+Azithromycin,Enterobacterales: Shigella species only,8,16,32,-,-,-,No,FDA STIC website does not recognize BPs. 
+Ampicillin,Enterococcus species,8,-,16,same,same,same,Yes,
+Chloramphenicol,Enterococcus species,8,16,32,-,-,-,No,FDA STIC website does not recognize BPs
+Ciprofloxacin,Enterococcus species,1,2,4,same,same,same,Yes,
+Doxycycline,Enterococcus species,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Erythromycin,Enterococcus species,0.5,1-4.,8,same,same,same,Yes,
+Gatifloxacin,Enterococcus species,2,4,8,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Levofloxacin,Enterococcus species,2,4,8,same,same,same,Yes,
+Linezolid,Enterococcus species,2,4,8,same,same,same,Yes,
+Minocycline,Enterococcus species,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Nitrofurantoin,Enterococcus species,32,64,128,same,same,same,Yes,
+Norfloxacin,Enterococcus species,4,8,16,-,-,-,No,"Norfloxacin not listed on FDA STIC website; CLSI BPs removed in 2019, reinstated in 2020"
+Penicillin,Enterococcus species,8,-,16,same,same,same,Yes,
+Rifampin,Enterococcus species,1,2,4,-,-,-,No,FDA STIC website does not recognize BPs
+Teicoplanin,Enterococcus species,8,16,32,-,-,-,No,Teicoplanin not listed on FDA STIC website
+Tetracycline,Enterococcus species,4,8,16,same,same,same,Yes,
+Vancomycin,Enterococcus species,4,8-16.,32,same,same,same,Yes,
+Daptomycin,Enterococcus species other than E. faecium or E. faecalis,2,4,8,-,-,-,No,"FDA accepts CLSI BPs of 2/4/8, but for E. faecalis only. CLSI lists E. faecium BPs of 4 (SDD)/ 8 (R) and BPs for Enterococcus other than E. faecium of 2/4/8. "
+Daptomycin,Enterococcus species: E. faecalis only,2,4,8,same,same,same,Yes,"FDA accepts CLSI BPs of 2/4/8, but for E. faecalis only. CLSI lists E. faecium BPs of 4 (SDD)/ 8 (R) and BPs for Enterococcus other than E. faecium of 2/4/8. "
+Daptomycin,Enterococcus species: E. faecium only,-,<=4 (SDD),8,-,-,-,No,"FDA accepts CLSI BPs of 2/4/8, but for E. faecalis only. CLSI lists E. faecium BPs of 4 (SDD)/ 8 (R) and BPs for Enterococcus other than E. faecium of 2/4/8. "
+Dalbavancin,Enterococcus species: Enterococcus faecalis only,0.25,-,-,same,same,same,Yes,For reporting against vancomycin-susceptible E. faecalis only
+Fosfomycin w/G6P,Enterococcus species: Enterococcus faecalis only,64,128,256,same,same,same,Yes,E. faecalis only
+Moxifloxacin,Enterococcus species: Enterococcus faecalis only,-,,-,1,2,4,No,FDA STIC website lists these BPs for E. faecalis only 1/2/4
+Oritavancin,Enterococcus species: Enterococcus faecalis only,0.125,-,-,same,same,same,Yes,For reporting against vancomycin-susceptible E. faecalis only
+Tedizolid,Enterococcus species: Enterococcus faecalis only,0.5,-,-,same,same,same,Yes,
+Telavancin,Enterococcus species: Enterococcus faecalis only,0.25,-,-,same,same,same,Yes,For reporting against vancomycin-susceptible E. faecalis only
+Quinupristin-dalfopristin,Enterococcus species: Vancomycin resistant Enterococcus faecium only ,1,2,4,-,-,-,No,E. faecium (VRE) only; FDA STIC website does not recognize BPs 
+Tigecycline,Enterococcus species: Vancomycin susceptible Enterococcus faecalis only,-,,-,0.25,-,-,No,VSE only. FDA Brkpts S <=0.25; no CLSI Brkpts; FDA STIC website lists these BPs for vanc-susceptible E. faecalis only
+Ceftolozane-Tazobactam,Haemophilus influenzae,0.5/4,-,-,same,same,same,Yes,STIC recognizes BPs for H. influenzae only
+Imipenem-Relebactam,Haemophilus influenzae,-,-,-,4/4.,-,-,No,CLSI does not have BPs for this drug/bug combination
+Cefotetan,Haemophilus influenzae ,-,-,-,4,8,16,No,CLSI does not have BPs for this drug/bug combination
+Amoxicillin-clavulanate,Haemophilus influenzae and H. parainfluenzae,2/1.,4/2.,8/4.,4/2.,-,8/4.,No,FDA STIC breakpoints are for H. influenzae only.
+Ampicillin,Haemophilus influenzae and H. parainfluenzae,1,2,4,same,same,same,Yes,
+Ampicillin-sulbactam,Haemophilus influenzae and H. parainfluenzae,2/1.,-,4/2.,same,same,same,Yes,
+Azithromycin,Haemophilus influenzae and H. parainfluenzae,4,-,-,same,same,same,Yes,
+Aztreonam,Haemophilus influenzae and H. parainfluenzae,2,-,-,same,same,same,Yes,
+Cefaclor,Haemophilus influenzae and H. parainfluenzae,8,16,32,-,-,-,No,FDA does not have BPs
+Cefamandole,Haemophilus influenzae and H. parainfluenzae,4,8,16,-,-,-,No,Cefamandole not listed on FDA STIC website
+Cefdinir,Haemophilus influenzae and H. parainfluenzae,1,-,-,same,same,same,Yes,
+Cefditoren Pivoxil ,Haemophilus influenzae and H. parainfluenzae,-,-,-,0.125,0.25,0.5,No,CLSI does not have BPs for this drug/bug combination
+Cefepime,Haemophilus influenzae and H. parainfluenzae,2,-,-,-,-,-,No,FDA does not recognize BPs
+Cefetamet,Haemophilus influenzae and H. parainfluenzae,4,8,16,-,-,-,No,Cefetamet not listed on FDA STIC website. 
+Cefixime,Haemophilus influenzae and H. parainfluenzae,1,-,-,same,same,same,Yes,
+Cefonicid,Haemophilus influenzae and H. parainfluenzae,4,8,16,-,-,-,No,Cefonicid not listed on FDA STIC website
+Cefotaxime,Haemophilus influenzae and H. parainfluenzae,2,-,-,1,-,-,No,FDA has a susceptible only breakpoint of <=1
+Cefpodoxime,Haemophilus influenzae and H. parainfluenzae,2,-,-,same,same,same,Yes,
+Cefprozil,Haemophilus influenzae and H. parainfluenzae,8,16,32,-,-,-,No,FDA does not have BPs
+Ceftaroline,Haemophilus influenzae and H. parainfluenzae,0.5,-,-,same,same,same,Yes,
+Ceftazidime,Haemophilus influenzae and H. parainfluenzae,2,-,-,same,same,same,Yes,
+Ceftibuten,Haemophilus influenzae and H. parainfluenzae,2,-,-,-,-,-,No,FDA does not have BPs
+Ceftizoxime,Haemophilus influenzae and H. parainfluenzae,2,-,-,-,-,-,No,Ceftizoxime not listed on FDA STIC website
+Ceftobiprole,Haemophilus influenzae and H. parainfluenzae,-,-,-,0.25,0.5,1,No,CLSI does not have BPs for this drug/bug combination
+Ceftriaxone,Haemophilus influenzae and H. parainfluenzae,2,-,-,same,same,same,Yes,
+Cefuroxime,Haemophilus influenzae and H. parainfluenzae,4,8,16,same,same,same,Yes,
+Chloramphenicol,Haemophilus influenzae and H. parainfluenzae,2,4,8,same,same,same,Yes,
+Ciprofloxacin,Haemophilus influenzae and H. parainfluenzae,1,-,-,same,same,same,Yes,
+Clarithromycin,Haemophilus influenzae and H. parainfluenzae,8,16,32,same,same,same,Yes,
+Doripenem,Haemophilus influenzae and H. parainfluenzae,1,-,-,-,-,-,No,FDA does not have BPs
+Ertapenem,Haemophilus influenzae and H. parainfluenzae,0.5,-,-,same,same,same,Yes,
+Fleroxacin,Haemophilus influenzae and H. parainfluenzae,2,-,-,-,-,-,No,FDA does not have BPs
+Gatifloxacin,Haemophilus influenzae and H. parainfluenzae,1,-,-,-,-,-,No,FDA does not have BPs
+Gemifloxacin,Haemophilus influenzae and H. parainfluenzae,0.12,-,-,same,same,same,Yes,
+Grepafloxacin,Haemophilus influenzae and H. parainfluenzae,0.5,-,-,-,-,-,No,FDA does not have BPs
+Imipenem,Haemophilus influenzae and H. parainfluenzae,4,-,-,same,same,same,Yes,
+Lefamulin,Haemophilus influenzae and H. parainfluenzae,2,-,-,same,same,same,Yes,FDA recognized CLSI BPs for H. influenzae only
+Levofloxacin,Haemophilus influenzae and H. parainfluenzae,2,-,-,same,same,same,Yes,
+Lomefloxacin,Haemophilus influenzae and H. parainfluenzae,2,-,-,-,-,-,No,FDA does not have BPs
+Loracarbef,Haemophilus influenzae and H. parainfluenzae,8,16,32,-,-,-,No,FDA does not have BPs
+Meropenem,Haemophilus influenzae and H. parainfluenzae,0.5,-,-,same,same,same,Yes,
+Moxifloxacin,Haemophilus influenzae and H. parainfluenzae,1,-,-,same,same,same,Yes,
+Ofloxacin,Haemophilus influenzae and H. parainfluenzae,2,-,-,same,same,same,Yes,
+Piperacillin-Tazobactam,Haemophilus influenzae and H. parainfluenzae,1/4.,-,2/4.,same,same,same,Yes,
+Rifampin,Haemophilus influenzae and H. parainfluenzae,1,2,4,-,-,-,No,FDA does not have BPs
+Sparfloxacin,Haemophilus influenzae and H. parainfluenzae,0.25,-,-,-,-,-,No,FDA does not have BPs
+Tetracycline,Haemophilus influenzae and H. parainfluenzae,2,4,8,same,same,same,Yes,
+Trimethoprim-Sulfamethoxazole,Haemophilus influenzae and H. parainfluenzae,0.5/9.5,1/19-2/38,4/76.,same,same,same,Yes,
+Trovafloxacin,Haemophilus influenzae and H. parainfluenzae,1,-,-,-,-,-,No,FDA does not have BPs
+Azithromycin,Neisseria gonorrhoeae,1,-,-,-,-,-,No,FDA does not have BPs
+Cefepime,Neisseria gonorrhoeae,0.5,-,-,-,-,-,No,FDA does not recognize BPs
+Cefixime,Neisseria gonorrhoeae,0.25,-,-,same,same,same,Yes,
+Cefotaxime,Neisseria gonorrhoeae,0.5,-,-,same,same,same,Yes,
+Cefotetan,Neisseria gonorrhoeae,2,4,8,4,8,16,No,
+Cefoxitin,Neisseria gonorrhoeae,2,4,8,same,same,same,Yes,
+Cefpodoxime,Neisseria gonorrhoeae,0.5,-,-,same,same,same,Yes,
+Ceftizoxime,Neisseria gonorrhoeae,0.5,-,-,-,-,-,No,Ceftizoxime not listed on FDA STIC website
+Ceftriaxone,Neisseria gonorrhoeae,0.25,-,-,same,same,same,Yes,
+Ciprofloxacin,Neisseria gonorrhoeae,0.06,0.12-0.5,1,same,same,same,Yes,
+Ofloxacin,Neisseria gonorrhoeae,-,-,-,0.25,0.5-1,2,No,CLSI does not have BPs for this drug/bug combination
+Penicillin,Neisseria gonorrhoeae,0.06,0.12-1,2,same,same,same,Yes,
+Spectinomycin,Neisseria gonorrhoeae,32,64,128,same,same,same,Yes,
+Tetracycline,Neisseria gonorrhoeae,0.25,0.5-1,2,same,same,same,Yes,
+Ampicillin,Neisseria meningitidis,0.12,0.25-1,2,same,same,same,Yes,
+Azithromycin,Neisseria meningitidis,2,-,-,-,-,-,No,FDA does not have BPs
+Cefotaxime,Neisseria meningitidis,0.12,-,-,same,same,same,Yes,
+Ceftriaxone,Neisseria meningitidis,0.12,-,-,same,same,same,Yes,
+Chloramphenicol,Neisseria meningitidis,2,4,8,-,-,-,No,FDA does not have BPs
+Ciprofloxacin,Neisseria meningitidis,0.03,0.06,0.12,-,-,-,No,FDA does not have BPs
+Levofloxacin,Neisseria meningitidis,0.03,0.06,0.12,-,-,-,No,FDA does not have BPs
+Meropenem,Neisseria meningitidis,0.25,-,-,same,same,same,Yes,
+Minocycline,Neisseria meningitidis,2,-,-,same,same,same,Yes,
+Penicillin,Neisseria meningitidis,0.06,0.12-0.25,0.5,-,-,-,No,FDA does not have BPs
+Rifampin,Neisseria meningitidis,0.5,1,2,same,same,same,Yes,
+Sulfisoxazole,Neisseria meningitidis,2,4,8,-,-,-,No,FDA does not have BPs
+Trimethoprim-Sulfamethoxazole,Neisseria meningitidis,0.12/2.4,0.25/4.75,0.5/9.5,-,-,-,No,FDA does not have BPs
+Amikacin,Other Non-Enterobacterales,16,32,64,same,same,same,Yes,
+Aztreonam,Other Non-Enterobacterales,8,16,32,-,-,-,No,FDA STIC website does not recognize BPs
+Cefepime,Other Non-Enterobacterales,8,16,32,-,-,-,No,FDA STIC website does not recognize BPs
+Cefoperazone,Other Non-Enterobacterales,16,32,64,8,-,16,No,
+Cefotaxime,Other Non-Enterobacterales,8,16-32,64,1,2,4,No,
+Ceftazidime,Other Non-Enterobacterales,8,16,32,-,-,-,No,FDA STIC website does not recognize BPs
+Ceftizoxime,Other Non-Enterobacterales,8,16-32,64,-,-,-,No,Ceftizoxime not listed on FDA STIC website
+Ceftriaxone,Other Non-Enterobacterales,8,16-32,64,-,-,-,No,FDA STIC website does not recognize BPs
+Chloramphenicol,Other Non-Enterobacterales,8,16,32,-,-,-,No,FDA STIC website does not recognize BPs
+Ciprofloxacin,Other Non-Enterobacterales,1,2,4,-,-,-,No,FDA STIC website does not recognize BPs
+Doxycycline,Other Non-Enterobacterales,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Gatifloxacin,Other Non-Enterobacterales,2,4,8,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Gentamicin,Other Non-Enterobacterales,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Imipenem,Other Non-Enterobacterales,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Levofloxacin,Other Non-Enterobacterales,2,4,8,-,-,-,No,FDA STIC website does not recognize BPs
+Lomefloxacin,Other Non-Enterobacterales,2,4,8,-,-,-,No,Lomefloxacin not listed on FDA STIC website
+Meropenem,Other Non-Enterobacterales,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Minocycline,Other Non-Enterobacterales,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Moxalactam,Other Non-Enterobacterales,8,16-32,64,-,-,-,No,Moxalactam not listed on FDA STIC website
+Netilmicin,Other Non-Enterobacterales,8,16,32,-,-,-,No,Netilmicin not listed on FDA STIC website
+Norfloxacin,Other Non-Enterobacterales,4,8,16,-,-,-,No,"Norfloxacin not listed on FDA STIC website; CLSI BPs removed in 2019, reinstated in 2020"
+Ofloxacin,Other Non-Enterobacterales,2,4,8,-,-,-,No,FDA STIC website does not recognize BPs
+Piperacillin,Other Non-Enterobacterales,16,32-64,128,-,-,-,No,Piperacillin not listed on FDA STIC website
+Piperacillin-Tazobactam,Other Non-Enterobacterales,16/4,32/4-64/4,128/4,-,-,-,No,FDA STIC website does not recognize BPs
+Sulfonamides,Other Non-Enterobacterales,256,-,512,-,-,-,No,Sulfamethoxazole and sulfisoxazole are not listed on FDA STIC website
+Tetracycline,Other Non-Enterobacterales,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Ticarcillin-Clavulanate,Other Non-Enterobacterales,16/2,32/2-64/2,128/2,-,-,-,No,FDA STIC website does not recognize BPs
+Tobramycin,Other Non-Enterobacterales,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Trimethoprim-Sulfamethoxazole,Other Non-Enterobacterales,2/38.,-,4/76.,-,-,-,No,FDA STIC website does not recognize BPs
+Amikacin,Pseudomonas aeruginosa,16,32,64,same,same,same,Yes,
+Aztreonam,Pseudomonas aeruginosa,8,16,32,same,same,same,Yes,
+Cefepime,Pseudomonas aeruginosa,8,16,32,8,-,16,No,
+Cefepime-Enmetazobactam,Pseudomonas aeruginosa,-,-,-,8/8.,-,16/8,No,CLSI does not have BPs for this drug/bug combination
+Cefiderocol,Pseudomonas aeruginosa,4,8,16,1,2,4,No,
+Ceftazidime,Pseudomonas aeruginosa,8,16,32,8,-,16,No,
+Ceftazidime-Avibactam ,Pseudomonas aeruginosa,8/4.,-,16/4,same,same,same,Yes,
+Ceftolozane-Tazobactam,Pseudomonas aeruginosa,4/4.,8/4.,16/4,same,same,same,Yes,
+Ciprofloxacin,Pseudomonas aeruginosa,0.5,1,2,same,same,same,Yes,
+Colistin,Pseudomonas aeruginosa,-,2,4,-,-,-,No,"FDA does not accept CL breakpoints at all; Note that the lower breakpoint is for intermediate, not susceptible."
+Delafloxacin,Pseudomonas aeruginosa,-,-,-,0.5,1,2,No,FDA BPs are 0.5/1/2. There are no CLSI BPs
+Doripenem,Pseudomonas aeruginosa,2,4,8,same,same,same,Yes,
+Gatifloxacin,Pseudomonas aeruginosa,2,4,8,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Gentamicin,Pseudomonas aeruginosa,-,-,-,4,8,16,No,CLSI removed BPs in the M100-33rd ed. FDA STIC recognizes the CLSI BPs in the M100-32nd ed. 
+Imipenem,Pseudomonas aeruginosa,2,4,8,same,same,same,Yes,
+Imipenem-Relebactam,Pseudomonas aeruginosa,2/4.,4/4.,8/4.,same,same,same,Yes,
+Levofloxacin,Pseudomonas aeruginosa,1,2,4,same,same,same,Yes,
+Lomefloxacin,Pseudomonas aeruginosa,2,4,8,-,-,-,No,Lomefloxacin not listed on FDA STIC website
+Meropenem,Pseudomonas aeruginosa,2,4,8,same,same,same,Yes,
+Netilmicin,Pseudomonas aeruginosa,8,16,32,-,-,-,No,Netilmicin not listed on FDA STIC website
+Norfloxacin,Pseudomonas aeruginosa,4,8,16,-,-,-,No,"Norfloxacin not listed on FDA STIC website; CLSI BPs removed in 2019, reinstated in 2020"
+Ofloxacin,Pseudomonas aeruginosa,2,4,8,same,same,same,Yes,
+Piperacillin,Pseudomonas aeruginosa,16,32,64,-,-,-,No,Pipercillin not listed on FDA STIC website
+Piperacillin-Tazobactam,Pseudomonas aeruginosa,16/4,32/4,64/4,8/4.,16/4 (SDD),32/4,No,CLSI updated BPs in the M100-33rd ed. FDA STIC recognizes the CLSI BPs in the M100-32nd ed. 
+Polymyxin B,Pseudomonas aeruginosa,-,2,8,-,-,-,No,"FDA does not accept PB breakpoints. Note that the lower breakpoint is for intermediate, not susceptible. "
+Ticarcillin-Clavulanate,Pseudomonas aeruginosa,16/2,32/2-64/2,128/2,same,same,same,Yes,
+Tobramycin,Pseudomonas aeruginosa,1,2,4,4,8,16,No,CLSI updated BPs in the M100-33rd ed. FDA STIC recognizes the CLSI BPs in the M100-32nd ed. 
+Tobramycin,Staphylcoccus aureus ,-,-,-,4,8,16,No,CLSI does not have BPs for this drug/bug combination
+Ceftobiprole,Staphylococcus aureus,-,-,-,2,4,8,No,CLSI does not have BPs for this drug/bug combination
+Azithromycin,Staphylococcus species ,2,4,8,same,same,same,Yes,
+Chloramphenicol,Staphylococcus species ,8,16,32,-,-,-,No,FDA STIC website does not recognize BPs
+Ciprofloxacin,Staphylococcus species ,1,2,4,same,same,same,Yes,
+Clarithromycin,Staphylococcus species ,2,4,8,same,same,same,Yes,
+Clindamycin,Staphylococcus species ,0.5,1-2.,4,same,same,same,Yes,
+Daptomycin,Staphylococcus species ,1,-,-,same,same,same,Yes,
+Dirithromycin,Staphylococcus species ,2,4,8,-,-,-,No,Dirithromycin not listed on FDA STIC website
+Doxycycline,Staphylococcus species ,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Enoxacin,Staphylococcus species ,2,4,8,-,-,-,No,for UTI only; Enoxacin not listed on FDA STIC website
+Erythromycin,Staphylococcus species ,0.5,1-4.,8,same,same,same,Yes,
+Fleroxacin,Staphylococcus species ,2,4,8,-,-,-,No,Fleroxacin not listed on FDA STIC website.
+Gatifloxacin,Staphylococcus species ,0.5,1,2,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Gentamicin,Staphylococcus species ,4,8,16,same,same,same,Yes,
+Grepafloxacin,Staphylococcus species ,1,2,4,-,-,-,No,Grepafloxacin not listed on FDA STIC website.
+Levofloxacin,Staphylococcus species ,1,2,4,2,4,8,No,FDA STIC website lists BPs of 2/4/8 and for MSSA only
+Linezolid,Staphylococcus species ,4,-,8,same,same,same,Yes,
+Lomefloxacin,Staphylococcus species ,2,4,8,-,-,-,No,Lomefloxacin not listed on FDA STIC website
+Minocycline,Staphylococcus species ,4,8,16,same,same,same,Yes,
+Moxifloxacin,Staphylococcus species ,0.5,1,2,same,same,same,Yes,
+Mupirocin High level,Staphylococcus species ,-,,-,-,-,-,No,No CLSI or FDA BPs
+Nitrofurantoin,Staphylococcus species ,32,64,128,same,same,same,Yes,
+Norfloxacin,Staphylococcus species ,4,8,16,-,-,-,No,"Norfloxacin not listed on FDA STIC website; CLSI BPs removed in 2019, reinstated in 2020"
+Ofloxacin,Staphylococcus species ,1,2,4,2,4,8,No,*FDA STIC website lists BPs as 2/4/8 for MSSA only
+Penicillin ,Staphylococcus species ,0.125,-,0.25,same,same,same,Yes,
+Rifampin,Staphylococcus species ,1,2,4,-,-,-,No,FDA STIC website does not recognize BPs
+Sparfloxacin,Staphylococcus species ,0.5,1,2,-,-,-,No,Sparfloxacin not listed on FDA STIC website
+Sulfonamides,Staphylococcus species ,256,,512,-,-,-,No,Sulfamethoxazole and sulfisoxazole not listed on FDA STIC website
+Teicoplanin,Staphylococcus species ,8,16,32,-,-,-,No,Teicoplanin not listed on FDA STIC website
+Tetracycline,Staphylococcus species ,4,8,16,same,same,same,Yes,
+Trimethoprim,Staphylococcus species ,8,-,16,same,same,same,Yes,
+Trimethoprim-Sulfamethoxazole,Staphylococcus species ,2/38.,-,4/76.,-,-,-,No,FDA STIC website does not recognize BPs
+Oxacillin,Staphylococcus species except Staphylococcus aureus,0.5,-,1,same,same,same,Yes,
+Vancomycin,Staphylococcus species except Staphylococcus aureus,4,8-16.,32,same,same,same,Yes,
+Oxacillin,Staphylococcus species: Staphylococcus aureus and Staphylococcus lugdunensis,2,-,4,same,same,same,Yes,
+Cefoxitin,Staphylococcus species: Staphylococcus aureus complex and Staphylococcus lugdunensis,4,-,8,same,same,same,Yes,
+Amikacin,Staphylococcus species: Staphylococcus aureus only,-,-,-,16,32,64,No,No CLSI BPs. FDA BPs are 16/32/64
+Ceftaroline,Staphylococcus species: Staphylococcus aureus only,1,2-4 (SDD),8,1,2 (I),4,No,"FDA BPs are 1/2/4,CLSI BPs are 1 / 2-4 (SDD) / 8"
+Dalbavancin,Staphylococcus species: Staphylococcus aureus only,0.25,-,-,same,same,same,Yes,S. aureus BPs only
+Lefamulin,Staphylococcus species: Staphylococcus aureus only,0.25,-,-,same,same,same,Yes,FDA recognizes CLSI BPs for MSSA only
+Oritavancin,Staphylococcus species: Staphylococcus aureus only,0.125,-,-,same,same,same,Yes,
+Quinupristin-dalfopristin,Staphylococcus species: Staphylococcus aureus only,1,2,4,same,same,same,Yes,Methicillin susceptible S. aureus only
+Tedizolid,Staphylococcus species: Staphylococcus aureus only,0.5,1,2,same,same,same,Yes,
+Telavancin,Staphylococcus species: Staphylococcus aureus only,0.125,-,-,same,same,same,Yes,
+Tigecycline,Staphylococcus species: Staphylococcus aureus only,-,,-,0.5,-,-,No,FDA Brkpts S<=0.5; no CLSI Brkpts
+Vancomycin,Staphylococcus species: Staphylococcus aureus only,2,4-8.,16,same,same,same,Yes,
+Cefiderocol,Stenotrophomonas maltophilia,1,-,-,-,-,-,No,FDA does not list cefiderocol BPs for S. maltophilia
+Chloramphenicol,Stenotrophomonas maltophilia,8,16,32,-,-,-,No,FDA STIC website does not recognize BPs
+Levofloxacin,Stenotrophomonas maltophilia,2,4,8,-,-,-,No,FDA STIC website does not recognize BPs
+Minocycline,Stenotrophomonas maltophilia,1,2,4,-,-,-,No,FDA STIC website does not recognize BPs
+Ticarcillin-Clavulanate,Stenotrophomonas maltophilia,16/2,32/2-64/2,128/2,-,-,-,No,FDA STIC website does not recognize BPs
+Trimethoprim-Sulfamethoxazole,Stenotrophomonas maltophilia,2/38.,-,4/76.,-,-,-,No,FDA STIC website does not recognize BPs
+Amoxicillin,Streptococcus pneumoniae,2,4,8,same,same,same,Yes,Nonmeningitis BP's
+Amoxicillin-Clavulanate,Streptococcus pneumoniae,2/1.,4/2.,8/4.,same,same,same,Yes,Nonmeningitis BP's
+Azithromycin,Streptococcus pneumoniae,0.5,1,2,same,same,same,Yes,
+Cefaclor,Streptococcus pneumoniae,1,2,4,same,same,same,Yes,
+Cefdinir,Streptococcus pneumoniae,0.5,1,2,same,same,same,Yes,
+Cefditoren Pivoxil ,Streptococcus pneumoniae,-,-,-,0.125,0.25,0.5,No,CLSI does not have BPs for this drug/bug combination
+Cefepime (meningitis),Streptococcus pneumoniae,0.5,1,2,-,-,-,No,FDA recognizes breakpoints for cefepime and non-meningitis only
+Cefepime (nonmeningitis),Streptococcus pneumoniae,1,2,4,same,same,same,Yes,Nonmeningitis BP's
+Cefotaxime (meningitis),Streptococcus pneumoniae,0.5,1,2,same,same,same,Yes,
+Cefotaxime (nonmeningitis),Streptococcus pneumoniae,1,2,4,same,same,same,Yes,
+Cefpodoxime,Streptococcus pneumoniae,0.5,1,2,same,same,same,Yes,
+Cefprozil,Streptococcus pneumoniae,2,4,8,0.5,-,1,No,
+Ceftaroline,Streptococcus pneumoniae,0.5,-,-,same,same,same,Yes,
+Ceftobiprole,Streptococcus pneumoniae,-,-,-,0.5,1,2,No,CLSI does not have BPs for this drug/bug combination
+Ceftriaxone (meningitis),Streptococcus pneumoniae,0.5,1,2,same,same,same,Yes,
+Ceftriaxone (nonmeningitis),Streptococcus pneumoniae,1,2,4,same,same,same,Yes,Nonmeningitis BP's
+Cefuroxime (oral),Streptococcus pneumoniae,1,2,4,same,same,same,Yes,Oral BPs
+Cefuroxime (parenteral),Streptococcus pneumoniae,0.5,1,2,same,same,same,Yes,Parenteral BPs
+Chloramphenicol,Streptococcus pneumoniae,4,-,8,-,-,-,No,FDA STIC website does not recognize BPs
+Ciprofloxacin,Streptococcus pneumoniae,-,-,-,1,2,4,No,CLSI does not have BPs for this drug/bug combination
+Clarithromycin,Streptococcus pneumoniae,0.25,0.5,1,same,same,same,Yes,
+Clindamycin,Streptococcus pneumoniae,0.25,0.5,1,same,same,same,Yes,
+Dirithromycin,Streptococcus pneumoniae,0.5,1,2,-,-,-,No,Dirithromycin not listed on FDA STIC website
+Doripenem,Streptococcus pneumoniae,1,-,-,same,same,same,Yes,
+Doxycycline,Streptococcus pneumoniae,0.25,0.5,1,same,same,same,Yes,
+Ertapenem,Streptococcus pneumoniae,1,2,4,same,same,same,Yes,
+Erythromycin,Streptococcus pneumoniae,0.25,0.5,1,same,same,same,Yes,
+Gatifloxacin,Streptococcus pneumoniae,1,2,4,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Gemifloxacin,Streptococcus pneumoniae,0.125,0.25,0.5,same,same,same,Yes,
+Imipenem,Streptococcus pneumoniae,0.125,0.25-0.5,1,same,same,same,Yes,
+Lefamulin,Streptococcus pneumoniae,0.5,-,-,same,same,same,Yes,
+Levofloxacin,Streptococcus pneumoniae,2,4,8,same,same,same,Yes,
+Linezolid,Streptococcus pneumoniae,2,-,-,same,same,same,Yes,
+Loracarbef,Streptococcus pneumoniae,2,4,8,-,-,-,No,FDA STIC website does not recognize any BPs
+Meropenem,Streptococcus pneumoniae,0.25,0.5,1,same,same,same,Yes,
+Moxifloxacin,Streptococcus pneumoniae,1,2,4,same,same,same,Yes,
+Ofloxacin,Streptococcus pneumoniae,2,4,8,same,same,same,Yes,
+Penicillin (meningitis),Streptococcus pneumoniae,0.06,-,0.12,same,same,same,Yes,
+Penicillin (nonmeningitis),Streptococcus pneumoniae,2,4,8,same,same,same,Yes,
+Penicillin V (oral) ,Streptococcus pneumoniae,0.06,0.12-1,2,same,same,same,Yes,Oral (non-meningitis) BPs
+Quinupristin-dalfopristin,Streptococcus pneumoniae,1,2,4,-,-,-,No,FDA STIC website does not recognize BPs
+Rifampin,Streptococcus pneumoniae,1,2,4,-,-,-,No,FDA STIC website does not recognize BPs
+Sparfloxacin,Streptococcus pneumoniae,0.5,1,2,-,-,-,No,Sparfloxacin not listed on FDA STIC website
+Tetracycline,Streptococcus pneumoniae,1,2,4,same,same,same,Yes,
+Tigecycline,Streptococcus pneumoniae,-,-,-,0.06,-,-,No,FDA Brkpts S<=0.06; no CLSI Brkpts
+Trimethoprim-Sulfamethoxazole,Streptococcus pneumoniae,0.5/9.5,1/19-2/38,4/76.,same,same,same,Yes,
+Vancomycin,Streptococcus pneumoniae,1,-,-,-,-,-,No,FDA STIC website does not recognize BPs
+Ceftobiprole,Streptococcus pyogenes,-,-,-,0.5,-,-,No,CLSI does not have BPs for this drug/bug combination
+Ampicillin,Streptococcus viridans group,0.25,0.5-4,8,same,same,same,Yes,
+Azithromycin,Streptococcus viridans group,0.5,1,2,-,-,-,No,FDA STIC website does not recognize BPs. 
+Cefepime,Streptococcus viridans group,1,2,4,same,same,same,Yes,
+Cefotaxime,Streptococcus viridans group,1,2,4,same,same,same,Yes,
+Ceftolozane-Tazobactam,Streptococcus viridans group,8/4.,16/4,32/4,same,same,same,Yes,
+Ceftriaxone,Streptococcus viridans group,1,2,4,same,same,same,Yes,
+Chloramphenicol,Streptococcus viridans group,4,8,16,-,-,-,No,FDA STIC website does not recognize BPs
+Clarithromycin,Streptococcus viridans group,0.25,0.5,1,-,-,-,No,FDA STIC website does not recognize BPs
+Clindamycin,Streptococcus viridans group,0.25,0.5,1,same,same,same,Yes,
+Daptomycin,Streptococcus viridans group,1,-,-,-,-,-,No,FDA STIC website does not list BPs for Streptococcus spp. viridans group
+Dirithromycin,Streptococcus viridans group,0.5,1,2,-,-,-,No,Dirithromycin not listed on FDA STIC website
+Doripenem,Streptococcus viridans group,1,-,-,same,same,same,Yes,
+Ertapenem,Streptococcus viridans group,1,-,-,same,same,same,Yes,
+Erythromycin,Streptococcus viridans group,0.25,0.5,1,same,same,same,Yes,
+Gatifloxacin,Streptococcus viridans group,1,2,4,-,-,-,No,Gatifloxacin not listed on FDA STIC website
+Grepafloxacin,Streptococcus viridans group,0.5,1,2,-,-,-,No,Grepafloxacin not listed on FDA STIC website.
+Levofloxacin,Streptococcus viridans group,2,4,8,-,-,-,No,FDA STIC website does not recognize BPs
+Linezolid,Streptococcus viridans group,2,-,-,same,same,same,Yes,
+Meropenem,Streptococcus viridans group,0.5,-,-,same,same,same,Yes,
+Ofloxacin,Streptococcus viridans group,2,4,8,-,-,-,No,FDA STIC website does not recognize BPs
+Oritavancin,Streptococcus viridans group,0.25,-,-,same,same,same,Yes,
+Penicillin,Streptococcus viridans group,0.125,0.25-2,4,same,same,same,Yes,
+Quinupristin-dalfopristin,Streptococcus viridans group,1,2,4,same,same,same,Yes,
+Telavancin,Streptococcus viridans group,0.0625,-,-,same,same,same,Yes,
+Tetracycline,Streptococcus viridans group,2,4,8,-,-,-,No,FDA STIC website does not recognize BPs
+Tigecycline,Streptococcus viridans group,-,-,-,0.25,-,-,No,FDA BP S<=0.25; no CLSI BPs
+Trovafloxacin,Streptococcus viridans group,1,2,4,-,-,-,No,Trovafloxacin not listed on FDA STIC website
+Vancomycin,Streptococcus viridans group,1,-,-,same,same,same,Yes,
+Dalbavancin,Streptococcus viridans group: S. anginosus group,0.25,-,-,same,same,same,Yes,
+Tedizolid,Streptococcus viridans group: S. anginosus group,0.25,-,-,same,same,same,Yes,
