@@ -10,7 +10,7 @@ df=load_data()
 
 #print(df.head())
 
-df.rename(columns={'ï»¿DRUG NAME':'Antibiotic','Organism/Organism Group':'Organism' },inplace=True)
+df.rename(columns={'DRUG NAME':'Antibiotic','Organism/Organism Group':'Organism' },inplace=True)
 
 #print(df.columns)
 
