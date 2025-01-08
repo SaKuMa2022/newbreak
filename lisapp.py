@@ -23,8 +23,7 @@ with st.form(key='Patient_form'):
     
     # Submit button
     submit_button = st.form_submit_button("Submit")
-    # Clear input fields
-st.experimental_rerun()   
+    
  
 # Handling form submission
 if submit_button:
