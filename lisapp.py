@@ -44,7 +44,7 @@ if submit_button:
         }
 
         # Create a DataFrame for the new student data
-        new_data = pd.DataFrame([student_data])
+        new_data = pd.DataFrame([patient_data])
 
         # Check if the Excel file exists, if not, create it with headers
         if os.path.exists(EXCEL_FILE):
