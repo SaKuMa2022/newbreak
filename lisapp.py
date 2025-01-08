@@ -59,7 +59,7 @@ if submit_button:
         df.to_excel(EXCEL_FILE, index=False)
 
         # Show success message
-        st.success(f"Student data saved for {student_name}")
+        st.success(f"Patient lab data saved for {patient_name}")
 
         # Clear the form inputs (Streamlit automatically clears the form on re-run)
 
