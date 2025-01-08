@@ -61,5 +61,5 @@ if submit_button:
         st.success(f"Student data saved for {student_name}")
 
         # Clear the form inputs (Streamlit automatically clears the form on re-run)
-if __name__ == "__main__":
-    main()
+
+    
