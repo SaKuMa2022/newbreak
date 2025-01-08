@@ -68,9 +68,6 @@ if submit_button:
     st.session_state.subject2 = 0
     st.session_state.subject3 = 0
     st.session_state.subject4 = 0
-    
-    # Clear the form and reset inputs (by rerunning the script)
-    st.experimental_rerun()
 
 # Display the table of all submitted student data
 if len(st.session_state.student_data) > 0:
