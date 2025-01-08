@@ -1,84 +1,71 @@
 import streamlit as st
-import openpyxl
+import pandas as pd
+from openpyxl import load_workbook
 
-# Function to create Excel sheet if it doesn't exist
-def create_excel_sheet():
+# Define the Excel file path
+excel_file = 'students_data.xlsx'
+
+# Function to load existing data from the Excel file or create a new one if it doesn't exist
+def load_or_create_data():
     try:
-        wb = openpyxl.load_workbook("students.xlsx")
+        # Load the existing Excel file
+        wb = load_workbook(excel_file)
+        sheet = wb.active
+        data = pd.DataFrame(sheet.values)
+        data.columns = ["Student Name", "Student ID", "Age", "Sex", "Subject 1", "Subject 2", "Subject 3", "Subject 4"]
+        return data
     except FileNotFoundError:
-        wb = openpyxl.Workbook()
-        ws = wb.active
-        ws.append(["Student ID", "Name", "Age", "Sex", "Grade (Subject 1)", "Grade (Subject 2)", "Grade (Subject 3)", "Grade (Subject 4)"])
-        wb.save("students.xlsx")
+        # If the file doesn't exist, create a new DataFrame
+        return pd.DataFrame(columns=["Student Name", "Student ID", "Age", "Sex", "Subject 1", "Subject 2", "Subject 3", "Subject 4"])
 
-        buf = io.BytesIO()
-        wb.save(buf)
-        buf.seek(0)
-        return buf
+# Function to save data to the Excel file
+def save_data_to_excel(df):
+    with pd.ExcelWriter(excel_file, engine='openpyxl') as writer:
+        df.to_excel(writer, index=False, sheet_name="Students")
 
-# Function to submit data to Excel
-def submit_data(student_id, name, age, sex, grade1, grade2, grade3, grade4):
-    wb = openpyxl.load_workbook("students.xlsx")
-    ws = wb.active
-    ws.append([student_id, name, age, sex, grade1, grade2, grade3, grade4])
-    wb.save("students.xlsx")
+# Main app code
+def main():
+    st.title("Student Data Form")
 
-# Streamlit UI
-st.title('Student Information Form')
+    # Create input fields
+    student_name = st.text_input("Student Name")
+    student_id = st.text_input("Student ID")
+    age = st.number_input("Age", min_value=1, max_value=100, step=1)
+    sex = st.selectbox("Sex", ["Male", "Female", "Other"])
+    subject_1 = st.number_input("Grade for Subject 1", min_value=0, max_value=100, step=1)
+    subject_2 = st.number_input("Grade for Subject 2", min_value=0, max_value=100, step=1)
+    subject_3 = st.number_input("Grade for Subject 3", min_value=0, max_value=100, step=1)
+    subject_4 = st.number_input("Grade for Subject 4", min_value=0, max_value=100, step=1)
 
-# Initialize session state for input fields
-if 'student_id' not in st.session_state:
-    st.session_state.student_id = ""
-    st.session_state.name = ""
-    st.session_state.age = ""
-    st.session_state.sex = "Male"
-    st.session_state.grade1 = ""
-    st.session_state.grade2 = ""
-    st.session_state.grade3 = ""
-    st.session_state.grade4 = ""
+    # Load existing data
+    df = load_or_create_data()
 
-# Input fields for student data
-st.session_state.student_id = st.text_input("Student ID", value=st.session_state.student_id)
-st.session_state.name = st.text_input("Name", value=st.session_state.name)
-st.session_state.age = st.text_input("Age", value=st.session_state.age)
-st.session_state.sex = st.selectbox("Sex", ["Male", "Female", "Other"], index=["Male", "Female", "Other"].index(st.session_state.sex))
-st.session_state.grade1 = st.text_input("Grade for Subject 1", value=st.session_state.grade1)
-st.session_state.grade2 = st.text_input("Grade for Subject 2", value=st.session_state.grade2)
-st.session_state.grade3 = st.text_input("Grade for Subject 3", value=st.session_state.grade3)
-st.session_state.grade4 = st.text_input("Grade for Subject 4", value=st.session_state.grade4)
-
-# Submit button
-if st.button('Submit'):
-    if (st.session_state.student_id and st.session_state.name and 
-        st.session_state.age and st.session_state.sex and
-        st.session_state.grade1 and st.session_state.grade2 and
-        st.session_state.grade3 and st.session_state.grade4):
+    # On submit button click
+    if st.button("Submit"):
+        # Collect the data into a new row
+        new_data = {
+            "Student Name": student_name,
+            "Student ID": student_id,
+            "Age": age,
+            "Sex": sex,
+            "Subject 1": subject_1,
+            "Subject 2": subject_2,
+            "Subject 3": subject_3,
+            "Subject 4": subject_4
+        }
         
-        # Save the data to Excel
-        submit_data(st.session_state.student_id, st.session_state.name, st.session_state.age,
-                    st.session_state.sex, st.session_state.grade1, st.session_state.grade2,
-                    st.session_state.grade3, st.session_state.grade4)
-        
-        # Show success message
-        st.success('Data submitted successfully!')
+        # Append the new row to the DataFrame
+        df = df.append(new_data, ignore_index=True)
 
-        # Clear the inputs (reset session state variables)
-        st.session_state.student_id = ""
-        st.session_state.name = ""
-        st.session_state.age = ""
-        st.session_state.sex = "Male"
-        st.session_state.grade1 = ""
-        st.session_state.grade2 = ""
-        st.session_state.grade3 = ""
-        st.session_state.grade4 = ""
-    else:
-        st.error('Please fill in all fields.')
+        # Save updated data to Excel
+        save_data_to_excel(df)
 
-# Initialize the Excel sheet on the first run
-create_excel_sheet()
-st.download_button(
-    label="Download student data as Excel file",
-    data=excel_file,
-    file_name="students.xlsx",
-    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-)
+        # Show the updated table
+        st.subheader("Updated Student Data")
+        st.write(df)
+
+        # Clear input fields
+        st.experimental_rerun()
+
+if __name__ == "__main__":
+    main()
