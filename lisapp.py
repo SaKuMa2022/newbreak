@@ -62,4 +62,5 @@ if submit_button:
 
         # Clear the form inputs (Streamlit automatically clears the form on re-run)
 
-    
+        # Clear input fields
+        st.experimental_rerun()    
