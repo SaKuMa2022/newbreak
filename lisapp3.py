@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+# Initialize session state to store student data across form submissions
+if 'student_data' not in st.session_state:
+    st.session_state.student_data = []
+
 # Streamlit app layout
 st.title("Student Information Input Form")
 
@@ -22,24 +26,26 @@ with st.form(key='student_form'):
 
 # After form submission
 if submit_button:
-    # Create a DataFrame to display the submitted data
-    student_data = {
-        "Student Name": [student_name],
-        "Student ID": [student_id],
-        "Age": [student_age],
-        "Sex": [student_sex],
-        "Subject 1": [subject1],
-        "Subject 2": [subject2],
-        "Subject 3": [subject3],
-        "Subject 4": [subject4]
+    # Store the new student data in a dictionary
+    student_entry = {
+        "Student Name": student_name,
+        "Student ID": student_id,
+        "Age": student_age,
+        "Sex": student_sex,
+        "Subject 1": subject1,
+        "Subject 2": subject2,
+        "Subject 3": subject3,
+        "Subject 4": subject4
     }
-
-    # Convert the dictionary into a DataFrame
-    df = pd.DataFrame(student_data)
     
-    # Display the data in a table
-    st.write("Submitted Student Data:")
-    st.table(df)
+    # Append the new entry to the session state list
+    st.session_state.student_data.append(student_entry)
     
-    # Reset inputs after submission
+    # Clear the form fields by rerunning the script
     st.experimental_rerun()
+
+# Display the table of all submitted student data
+if len(st.session_state.student_data) > 0:
+    df = pd.DataFrame(st.session_state.student_data)
+    st.write("All Submitted Student Data:")
+    st.table(df)
