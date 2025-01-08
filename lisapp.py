@@ -28,12 +28,12 @@ with st.form(key='Patient_form'):
 # Handling form submission
 if submit_button:
     # Check if all fields are filled
-    if not (patient_name and patient_id and pateint_age and sex and test_1 and test_2 and test_3 and subject_4):
+    if not (patient_name and patient_id and patient_age and sex and test_1 and test_2 and test_3 and subject_4):
         st.error("All fields must be filled!")
     else:
         # Prepare the data
         patient_data = {
-            'Name': student_name,
+            'Name': patient_name,
             'MRN': patient_id,
             'Age': patient_age,
             'Sex': sex,
