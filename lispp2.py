@@ -11,6 +11,11 @@ def create_excel_sheet():
         ws.append(["Student ID", "Name", "Age", "Sex", "Grade (Subject 1)", "Grade (Subject 2)", "Grade (Subject 3)", "Grade (Subject 4)"])
         wb.save("students.xlsx")
 
+buf = io.BytesIO()
+    wb.save(buf)
+    buf.seek(0)
+    return buf
+
 # Function to submit data to Excel
 def submit_data(student_id, name, age, sex, grade1, grade2, grade3, grade4):
     wb = openpyxl.load_workbook("students.xlsx")
@@ -71,3 +76,9 @@ if st.button('Submit'):
 
 # Initialize the Excel sheet on the first run
 create_excel_sheet()
+st.download_button(
+    label="Download student data as Excel file",
+    data=excel_file,
+    file_name="students.xlsx",
+    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+)
