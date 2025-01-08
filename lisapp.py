@@ -4,42 +4,44 @@ import os
 from openpyxl.workbook import workbook
 
 # Path for the Excel file
-EXCEL_FILE = "student_data.xlsx"
+EXCEL_FILE = "patient_data.xlsx"
 
 # Streamlit app title
-st.title("Student Data Input Form")
+st.title("Lab Data Input Form")
 
 # Define the form using Streamlit widgets
-with st.form(key='student_form'):
-    student_name = st.text_input("Student Name")
-    student_id = st.text_input("Student ID")
-    student_age = st.number_input("Student Age", min_value=1, max_value=100)
-    sex = st.radio("Student Sex", ("Male", "Female"))
+with st.form(key='Patient_form'):
+    patient_name = st.text_input("Patient Name")
+    patient_id = st.text_input("MRN")
+    patient_age = st.number_input("Patient Age", min_value=1, max_value=100)
+    sex = st.radio("Patient Sex", ("Male", "Female"))
     
-    subject_1 = st.number_input("Grade for Subject 1", min_value=0.0, max_value=100.0, step=0.1)
-    subject_2 = st.number_input("Grade for Subject 2", min_value=0.0, max_value=100.0, step=0.1)
-    subject_3 = st.number_input("Grade for Subject 3", min_value=0.0, max_value=100.0, step=0.1)
-    subject_4 = st.number_input("Grade for Subject 4", min_value=0.0, max_value=100.0, step=0.1)
+    test_1 = st.number_input("Value for test 1", min_value=0.0, max_value=100.0, step=0.1)
+    test_2 = st.number_input("Value for test 2", min_value=0.0, max_value=100.0, step=0.1)
+    test_3 = st.number_input("Value for test 3", min_value=0.0, max_value=100.0, step=0.1)
+    test_4 = st.number_input("Value for test 4", min_value=0.0, max_value=100.0, step=0.1)
     
     # Submit button
     submit_button = st.form_submit_button("Submit")
-
+    # Clear input fields
+        st.experimental_rerun()   
+ 
 # Handling form submission
 if submit_button:
     # Check if all fields are filled
-    if not (student_name and student_id and student_age and sex and subject_1 and subject_2 and subject_3 and subject_4):
+    if not (patient_name and patient_id and pateint_age and sex and test_1 and test_2 and test_3 and subject_4):
         st.error("All fields must be filled!")
     else:
         # Prepare the data
-        student_data = {
+        patient_data = {
             'Name': student_name,
-            'ID': student_id,
-            'Age': student_age,
+            'MRN': patient_id,
+            'Age': patient_age,
             'Sex': sex,
-            'Subject 1': subject_1,
-            'Subject 2': subject_2,
-            'Subject 3': subject_3,
-            'Subject 4': subject_4
+            'Test 1': test_1,
+            'Testt 2': test_2,
+            'Test 3': test_3,
+            'Test 4': test_4
         }
 
         # Create a DataFrame for the new student data
@@ -62,5 +64,4 @@ if submit_button:
 
         # Clear the form inputs (Streamlit automatically clears the form on re-run)
 
-        # Clear input fields
-        st.experimental_rerun()    
+        
