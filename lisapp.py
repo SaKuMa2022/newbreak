@@ -28,7 +28,7 @@ with st.form(key='Patient_form'):
 # Handling form submission
 if submit_button:
     # Check if all fields are filled
-    if not (patient_name and patient_id and patient_age and sex and test_1 and test_2 and test_3 and subject_4):
+    if not (patient_name and patient_id and patient_age and sex and test_1 and test_2 and test_3 and test_4):
         st.error("All fields must be filled!")
     else:
         # Prepare the data
