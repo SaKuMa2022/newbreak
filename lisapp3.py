@@ -42,7 +42,7 @@ if submit_button:
     st.session_state.student_data.append(student_entry)
     
     # Clear the form fields by rerunning the script
-    st.experimental_rerun()
+    #st.experimental_rerun()
 
 # Display the table of all submitted student data
 if len(st.session_state.student_data) > 0:
