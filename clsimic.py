@@ -64,7 +64,7 @@ def load_data():
     last_error = None
     for enc in ('utf-8-sig', 'utf-8', 'latin1'):
         try:
-            data = pd.read_csv(r'antimidata1.csv', encoding=enc)
+            data = pd.read_csv(r'clsi_fda_6.10.csv', encoding=enc)
             break
         except UnicodeDecodeError as e:
             last_error = e
