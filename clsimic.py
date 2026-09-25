@@ -18,20 +18,40 @@ ENABLE_ANALYTICS = False    # flip to True once you've set up Plausible (or swap
 # ---------------------------------------------------------------------------
 @st.cache_data
 def load_data():
-    data = pd.read_csv(r'clsi_fda_6.10.csv', encoding='unicode_escape')
-    # Normalize headers defensively: strip whitespace and collapse case/spacing
-    # differences so a re-exported CSV with slightly different header
-    # formatting doesn't silently break the rename below.
-    data.columns = [c.strip() for c in data.columns]
+    # Try encodings in order of likelihood. utf-8-sig automatically strips a
+    # UTF-8 byte-order-mark (BOM), which is what caused 'ï»¿DRUG NAME' to
+    # appear instead of 'DRUG NAME' when the file was read with
+    # 'unicode_escape'. latin1 is kept as a last-resort fallback for older
+    # exports that used a different encoding for special characters.
+    last_error = None
+    for enc in ('utf-8-sig', 'utf-8', 'latin1'):
+        try:
+            data = pd.read_csv(r'clsi_fda_6.10.csv', encoding=enc)
+            break
+        except UnicodeDecodeError as e:
+            last_error = e
+    else:
+        raise RuntimeError(f"Could not decode antimidata1.csv with any known encoding: {last_error}")
+
+    # Strip any leftover BOM character and whitespace from headers, in case
+    # a BOM slips through as a literal '\ufeff' rather than being consumed
+    # by the encoding itself.
+    data.columns = [c.replace('\ufeff', '').strip() for c in data.columns]
     return data
 
 df = load_data()
 
 # Map from a normalized (lowercase, no extra spaces) version of the expected
 # header to a normalized version of each actual column, so 'DRUG NAME',
-# 'Drug Name', or 'drug name ' all match the same target.
+# 'Drug Name', or 'drug name ' all match the same target. Both
+# 'Organism/Organism Group' and a plain 'Organism' column are accepted,
+# since different CSV exports have used either.
 _rename_map = {}
-_targets = {'drug name': 'Antibiotic', 'organism/organism group': 'Organism'}
+_targets = {
+    'drug name': 'Antibiotic',
+    'organism/organism group': 'Organism',
+    'organism': 'Organism',
+}
 for col in df.columns:
     key = col.strip().lower()
     if key in _targets:
