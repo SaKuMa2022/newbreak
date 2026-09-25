@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 import streamlit.components.v1 as components
-import urllib.request
-import urllib.error
+import os
 
 # ---------------------------------------------------------------------------
 # CONFIG — fill these in once you have your accounts set up
@@ -18,6 +17,43 @@ ENABLE_ANALYTICS = False    # flip to True once you've set up Plausible (or swap
 # ---------------------------------------------------------------------------
 # Data loading (unchanged)
 # ---------------------------------------------------------------------------
+def _inject_head_html(html_snippet, marker):
+    """
+    components.html() always renders inside a sandboxed iframe, which is
+    invisible to crawlers (like Google's AdSense site-verification check)
+    that fetch the page's real HTML source. Streamlit serves one shared
+    index.html from its own installed package, so patching that file
+    directly -- once, before any request is served -- gets the snippet
+    into the actual <head> that Google's crawler sees.
+
+    `marker` is a short, unique string (e.g. the ca-pub- ID) used to check
+    whether the injection already happened, so re-running this on every
+    app rerun doesn't duplicate it. It only needs to re-run after a fresh
+    deploy, when Streamlit's own index.html is reset to its original state.
+    """
+    if not html_snippet:
+        return
+    try:
+        index_path = os.path.join(os.path.dirname(st.__file__), "static", "index.html")
+        with open(index_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        if marker in content:
+            return  # already injected for this deploy
+        content = content.replace("</head>", html_snippet + "\n</head>")
+        with open(index_path, "w", encoding="utf-8") as f:
+            f.write(content)
+    except Exception:
+        # Never let a failed injection break the actual tool -- ads or
+        # verification just won't show if this fails for some reason.
+        pass
+
+
+# Run once at import time, before Streamlit serves any request, so the tag
+# is already in place when Google's crawler visits the page.
+if ADSENSE_VERIFICATION_SNIPPET:
+    _inject_head_html(ADSENSE_VERIFICATION_SNIPPET, marker=ADSENSE_CLIENT_ID)
+
+
 @st.cache_data
 def load_data():
     # Try encodings in order of likelihood. utf-8-sig automatically strips a
@@ -28,7 +64,7 @@ def load_data():
     last_error = None
     for enc in ('utf-8-sig', 'utf-8', 'latin1'):
         try:
-            data = pd.read_csv(r'clsi_fda_6.10.csv', encoding=enc)
+            data = pd.read_csv(r'antimidata1.csv', encoding=enc)
             break
         except UnicodeDecodeError as e:
             last_error = e
@@ -80,18 +116,6 @@ def filter_dataframe(query):
 # ---------------------------------------------------------------------------
 # Ad + analytics helpers
 # ---------------------------------------------------------------------------
-def inject_adsense_verification():
-    """
-    Renders Google's one-time site-verification / auto-ads snippet, the code
-    shown when you first add your site in AdSense (before approval). Paste
-    it into ADSENSE_VERIFICATION_SNIPPET above as a plain string. Safe no-op
-    if that string is empty.
-    """
-    if not ADSENSE_VERIFICATION_SNIPPET:
-        return
-    components.html(ADSENSE_VERIFICATION_SNIPPET, height=0)
-
-
 def render_ad_slot():
     """Renders a single AdSense display ad. Safe no-op if ENABLE_ADS is False."""
     if not ENABLE_ADS:
@@ -146,7 +170,6 @@ def log_search_event(query_type, query_value):
 # ---------------------------------------------------------------------------
 def main():
     inject_analytics()
-    inject_adsense_verification()
 
     st.title(':red[MICfinder v1.0]')
     st.subheader(':violet[(Gram-negative and Gram-positive bacteria)]')
