@@ -9,6 +9,8 @@ import urllib.error
 # ---------------------------------------------------------------------------
 ADSENSE_CLIENT_ID = "ca-pub-XXXXXXXXXXXXXXXX"   # from your AdSense account
 ADSENSE_SLOT_ID = "XXXXXXXXXX"                   # from the specific ad unit you create
+ADSENSE_VERIFICATION_SNIPPET = "<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2167773518291978"
+     crossorigin="anonymous"></script>"                # paste Google's one-time site-verification <script> tag here, as a string
 PLAUSIBLE_DOMAIN = "your-app-domain.streamlit.app"  # your app's public domain
 ENABLE_ADS = False          # flip to True once AdSense approves your site
 ENABLE_ANALYTICS = False    # flip to True once you've set up Plausible (or swap for your own)
@@ -78,6 +80,18 @@ def filter_dataframe(query):
 # ---------------------------------------------------------------------------
 # Ad + analytics helpers
 # ---------------------------------------------------------------------------
+def inject_adsense_verification():
+    """
+    Renders Google's one-time site-verification / auto-ads snippet, the code
+    shown when you first add your site in AdSense (before approval). Paste
+    it into ADSENSE_VERIFICATION_SNIPPET above as a plain string. Safe no-op
+    if that string is empty.
+    """
+    if not ADSENSE_VERIFICATION_SNIPPET:
+        return
+    components.html(ADSENSE_VERIFICATION_SNIPPET, height=0)
+
+
 def render_ad_slot():
     """Renders a single AdSense display ad. Safe no-op if ENABLE_ADS is False."""
     if not ENABLE_ADS:
@@ -132,6 +146,7 @@ def log_search_event(query_type, query_value):
 # ---------------------------------------------------------------------------
 def main():
     inject_analytics()
+    inject_adsense_verification()
 
     st.title(':red[MICfinder v1.0]')
     st.subheader(':violet[(Gram-negative and Gram-positive bacteria)]')
