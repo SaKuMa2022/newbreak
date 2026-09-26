@@ -6,9 +6,10 @@ import os
 # ---------------------------------------------------------------------------
 # CONFIG — fill these in once you have your accounts set up
 # ---------------------------------------------------------------------------
-ADSENSE_CLIENT_ID = "ca-pub-XXXXXXXXXXXXXXXX"   # from your AdSense account
+ADSENSE_CLIENT_ID = "ca-pub-2167773518291978"   # from your AdSense account
 ADSENSE_SLOT_ID = "XXXXXXXXXX"                   # from the specific ad unit you create
-ADSENSE_VERIFICATION_SNIPPET = ""                # paste Google's one-time site-verification <script> tag here, as a string
+ADSENSE_VERIFICATION_SNIPPET = "<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2167773518291978"
+     crossorigin="anonymous"></script>"                # paste Google's one-time site-verification <script> tag here, as a string
 PLAUSIBLE_DOMAIN = "your-app-domain.streamlit.app"  # your app's public domain
 ENABLE_ADS = False          # flip to True once AdSense approves your site
 ENABLE_ANALYTICS = False    # flip to True once you've set up Plausible (or swap for your own)
