@@ -122,7 +122,7 @@ def main():
     treatment of bacterial infection. MIC(values in µg/ml) is critical in that regard.
     Breakpoint setting requires integration of knowledge of wild type distribution of MICs and other
     factors(doi:10.1128/CMR.0047-06.) ]''')
-    st.markdown(':blue-background[Enter an antibiotic, an organism, or both to narrow your results, then press enter (return/done on mobile keyboards)]')
+    st.markdown(':blue-background[Enter a few letters of an antibiotic, an organism, or both to narrow your results, then press enter (return/done on mobile keyboards)]')
     st.text('Please use the refresh button on your browser to clear search results')
 
     antib_search = st.text_input('Search by Antibiotic:', '', key='antib_search')
